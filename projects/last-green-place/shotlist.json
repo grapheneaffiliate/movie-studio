@@ -8,10 +8,10 @@
       "id": "KEEPER",
       "name": "The Keeper",
       "continuity_method": "element",
-      "element_id": "28087740-12dd-485c-89ff-9b87ab8b68c4",
-      "wardrobe": "heather-grey crew-neck t-shirt, worn khaki work trousers, round dark-teal acetate glasses, short silver-blond side-swept hair, light grey stubble",
-      "voice": "Graham (en) \u2014 dry unhurried baritone, cast for age/register match",
-      "notes": "user's own likeness, photo supplied by user; wardrobe never changes"
+      "element_id": "03726389-7566-43f5-81f4-4280563608c3",
+      "wardrobe": "heather-grey crew-neck t-shirt, worn khaki work trousers, short dark-brown side-swept hair with long fringe, fair skin",
+      "voice": "Alex (en) \u2014 recast to match new lead",
+      "notes": "RECAST v2 from user-supplied photo; element the-keeper (28087740) retired but kept"
     }
   ],
   "shots": [
@@ -289,7 +289,7 @@
       "video_model": "kling3_0",
       "image_model": "nano_banana_2",
       "uses_elements": [
-        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+        "03726389-7566-43f5-81f4-4280563608c3"
       ],
       "chain_from_last_frame_of": null,
       "transition_in": {
@@ -297,9 +297,10 @@
       },
       "status": "approved",
       "takes": [
-        "s06_t01.mp4"
+        "s06_t01.mp4",
+        "s06_t02.mp4"
       ],
-      "approved_take": "s06_t01.mp4",
+      "approved_take": "s06_t02.mp4",
       "review_notes": [
         {
           "take": "s06_frame_t01.png",
@@ -327,6 +328,19 @@
           },
           "verdict": "approve",
           "why": "water arc onto vines, arm-only motion, slow orbit; identity anchors hold"
+        },
+        {
+          "take": "s06_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "water arc, slow orbit ends on face turn - nice reveal"
         }
       ]
     },
@@ -343,7 +357,7 @@
       "video_model": "kling3_0",
       "image_model": "nano_banana_2",
       "uses_elements": [
-        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+        "03726389-7566-43f5-81f4-4280563608c3"
       ],
       "chain_from_last_frame_of": null,
       "transition_in": {
@@ -351,9 +365,10 @@
       },
       "status": "approved",
       "takes": [
-        "s07_t01.mp4"
+        "s07_t01.mp4",
+        "s07_t02.mp4"
       ],
-      "approved_take": "s07_t01.mp4",
+      "approved_take": "s07_t02.mp4",
       "review_notes": [
         {
           "take": "s07_frame_t01.png",
@@ -381,6 +396,19 @@
           },
           "verdict": "approve",
           "why": "leaf offered, rabbit reaches and bites, camera static; identity holds"
+        },
+        {
+          "take": "s07_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "leaf offered, rabbit takes it, static"
         }
       ]
     },
@@ -449,7 +477,7 @@
       "video_model": "kling3_0",
       "image_model": "nano_banana_2",
       "uses_elements": [
-        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+        "03726389-7566-43f5-81f4-4280563608c3"
       ],
       "chain_from_last_frame_of": null,
       "transition_in": {
@@ -458,9 +486,10 @@
       },
       "status": "approved",
       "takes": [
-        "s09_t01.mp4"
+        "s09_t01.mp4",
+        "s09_t02.mp4"
       ],
-      "approved_take": "s09_t01.mp4",
+      "approved_take": "s09_t02.mp4",
       "review_notes": [
         {
           "take": "s09_frame_t01.png",
@@ -488,6 +517,19 @@
           },
           "verdict": "approve",
           "why": "raise-and-sip clean, orange sky churning above wall; identity holds"
+        },
+        {
+          "take": "s09_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "raise+sip, orange sky over wall, garden fg regained vs t01"
         }
       ]
     },
@@ -504,7 +546,7 @@
       "video_model": "kling3_0",
       "image_model": "nano_banana_2",
       "uses_elements": [
-        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+        "03726389-7566-43f5-81f4-4280563608c3"
       ],
       "chain_from_last_frame_of": null,
       "transition_in": {
@@ -512,9 +554,10 @@
       },
       "status": "approved",
       "takes": [
-        "s10_t01.mp4"
+        "s10_t01.mp4",
+        "s10_t02.mp4"
       ],
-      "approved_take": "s10_t01.mp4",
+      "approved_take": "s10_t02.mp4",
       "review_notes": [
         {
           "take": "s10_frame_t01.png",
@@ -542,6 +585,19 @@
           },
           "verdict": "approve",
           "why": "smile -> goggles pulled down over glasses, ends seated; the button beat exactly"
+        },
+        {
+          "take": "s10_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "smile -> goggles down over eyes, ends seated"
         }
       ]
     },

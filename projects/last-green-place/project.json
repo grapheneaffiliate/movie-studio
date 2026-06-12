@@ -9,7 +9,7 @@
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 150,
-    "spent_credits": 110.89,
+    "spent_credits": 147.39,
     "ledger": [
       {
         "what": "11 start frames nano_banana (1.5cr ea)",
@@ -27,14 +27,19 @@
         "what": "reconciliation vs opening balance (actual billed)",
         "credits": 110.89,
         "note": "replaces running estimates"
+      },
+      {
+        "what": "recast pass: 4 frames + 4 videos + 1 TTS line",
+        "credits": 36.5
       }
     ],
     "opening_balance": 2053.04,
-    "closing_balance": 1942.15
+    "closing_balance": 1905.65
   },
   "continuity_assets": {
     "elements": {
-      "the-keeper": "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      "the-keeper": "28087740-12dd-485c-89ff-9b87ab8b68c4",
+      "the-keeper-2": "03726389-7566-43f5-81f4-4280563608c3"
     },
     "souls": {}
   },
@@ -67,7 +72,16 @@
     "x01_engines": "89a6fb1d-ca71-4039-954d-e0dc27a21f87",
     "x02_garden_amb": "8264a4b6-f78b-42ec-b449-d5486de585e9",
     "x03_goggle_hit": "6198e51e-ae94-4808-bb56-ce2deadd752a",
-    "x04_doppler": "20a0855a-05f4-4913-bd4f-d85f523cf1e8"
+    "x04_doppler": "20a0855a-05f4-4913-bd4f-d85f523cf1e8",
+    "s06_video_t02": "cb94b207-ebbf-431b-86a0-7ca6aaf5fb14",
+    "s07_video_t02": "bb6f8a84-b0a7-4e38-ab78-5c9e89999e3d",
+    "s09_video_t02": "49d19b86-dd2d-4189-839a-984f5308c5b0",
+    "s10_video_t02": "0912345a-3a32-4180-8981-09d8021fcef1",
+    "s06_frame_t02": "3ce2fbdd-17a7-40cf-9174-7fc38da57840",
+    "s07_frame_t02": "19fc817f-313d-45bc-bd69-afeba7bb6773",
+    "s09_frame_t02": "3e56bb68-5945-4dfa-b48e-aa6c2b2f4f49",
+    "s10_frame_t02": "4412df65-4bbd-42c6-a978-29613006d062",
+    "d01_keeper_v2": "31755243-f1e8-4c1e-a154-94f93090a265"
   },
   "notes": [
     "premise A 'The Last Green Place' chosen from 3-premise brainstorm (first-idea rule); user approved with 'proceed'",
@@ -84,7 +98,12 @@
     "s09 preset_recommendation intercepted -> declined, literal retry OK",
     "assemble.py bug found+fixed during post: sub-frame xfade 'cut' durations truncated the chain; now exactly 1 frame",
     "final QC cutsheet + title lastframe verified; runtime 48.375s (-3.25% of 50s target)",
-    "actual spend 110.89cr vs 150cr estimate; zero retakes on 11 shots"
+    "actual spend 110.89cr vs 150cr estimate; zero retakes on 11 shots",
+    "RECAST per user: new lead from user-supplied photo -> element the-keeper-2; only s06/s07/s09/s10 + d01 redone, rest of film untouched",
+    "bible v2: short dark-brown side-swept hair with long fringe, fair skin, no glasses; wardrobe unchanged (heather-grey tee, khaki trousers)",
+    "voice recast Graham (en) -> Alex (en) to match younger lead; old stem kept as alternate take",
+    "recast frames approved t02 on sight: wardrobe + face consistent; s09 t02 regains garden foreground (improves on t01 framing)",
+    "v2 delivered: recast lead in s06/s07/s09/s10, voice Alex (en), all t02 approved take 1; final re-rendered, QC'd, published to CDN"
   ],
   "aspect_ratio": "16:9"
 }
