@@ -1,0 +1,401 @@
+{
+  "project": "going-going-gone",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 50,
+  "characters": [
+    {
+      "id": "PEMBROKE",
+      "name": "Mr. Pembroke (elder man in photo)",
+      "continuity_method": "element",
+      "element_id": "be6a7391-092b-4b8d-acd1-c0afc558f8d3",
+      "wardrobe": "black Victorian frock coat with silk lapels, white wing-collar shirt, teal paisley silk cravat, swept-back white hair, full white goatee beard",
+      "voice": "Rupert (en) \u2014 rapid plummy auctioneer patter"
+    },
+    {
+      "id": "HALE",
+      "name": "Mr. Hale (younger man in photo)",
+      "continuity_method": "element",
+      "element_id": "4714e398-6a9a-4d96-a119-00a87138dc6f",
+      "wardrobe": "charcoal Victorian frock coat, white wing-collar shirt, burgundy striped silk cravat, short dark-brown side-parted hair",
+      "voice": "Callum (en) \u2014 dry straight man"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "duration_s": 4,
+      "shot_type": "hall establishing",
+      "camera": "24mm slow push down aisle",
+      "action": "Gaslit hall, covered lot.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, grand auction hall seen from the rear, two crystal-and-brass chandeliers with flickering flames, mahogany rostrum on a stage, a small lot covered by a crimson velvet cloth on a side pedestal, dark out-of-focus top-hatted silhouettes in the bottom foreground only, no resolved faces, deep warm shadows",
+      "video_prompt": "slow push forward down the center aisle, chandelier flames flicker gently, the silhouettes and hall stay still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.4
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s02",
+      "scene": 2,
+      "duration_s": 4,
+      "shot_type": "rostrum two-shot",
+      "camera": "35mm chest-up, locked",
+      "action": "Pembroke raises the gavel; Hale dips his pen.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 35mm two-shot at the mahogany rostrum of exactly two men: <<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>>, a distinguished 60s auctioneer, black Victorian frock coat with silk lapels, white wing-collar shirt, teal paisley silk cravat, swept-back white hair, full white goatee beard, raising an ivory-handled gavel theatrically, and beside him <<<4714e398-6a9a-4d96-a119-00a87138dc6f>>>, a late-30s clerk, charcoal Victorian frock coat, white wing-collar shirt, burgundy striped silk cravat, short dark-brown side-parted hair, holding an open leather bidding ledger with a pen, brass rostrum lamp glowing, gilt frames behind, two men only",
+      "video_prompt": "<<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>> raises the ivory-handled gavel theatrically and raps it twice, <<<4714e398-6a9a-4d96-a119-00a87138dc6f>>> dips his pen to the leather bidding ledger, both stay planted, background still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "be6a7391-092b-4b8d-acd1-c0afc558f8d3",
+        "4714e398-6a9a-4d96-a119-00a87138dc6f"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s03",
+      "scene": 3,
+      "duration_s": 4,
+      "shot_type": "reveal insert",
+      "camera": "85mm slow lateral drift",
+      "action": "Velvet off: the Jeweled Raven under glass.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 85mm close-up of a jeweled obsidian raven statuette with glittering gemstone eyes standing on a white marble plinth under a glass display dome, one white-gloved hand drawing away a crimson velvet cloth at frame edge, one warm spotlight from upper left glinting on jewels and glass, dark velvet backdrop, no faces",
+      "video_prompt": "the white-gloved hand draws the crimson velvet cloth fully away in one smooth motion, the raven's gemstone eyes glitter in the spotlight, the dome and plinth stay perfectly still, slow lateral camera drift",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s04",
+      "scene": 4,
+      "duration_s": 4,
+      "shot_type": "auctioneer full flight",
+      "camera": "50mm chest-up, slight push",
+      "action": "The chant opens fire.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 50mm chest-up of <<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>>, a distinguished 60s auctioneer, black Victorian frock coat with silk lapels, white wing-collar shirt, teal paisley silk cravat, swept-back white hair, full white goatee beard, mid rapid-fire auction chant, mouth open mid-word, eyebrows high with showman's energy, conducting with an ivory-handled gavel in small precise strokes, warm gaslight key from a brass rostrum lamp, warm bokeh hall behind, one man only",
+      "video_prompt": "<<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>> talks rapid-fire with quick animated mouth and flying eyebrows, conducting tiny precise strokes with the ivory-handled gavel, shoulders square and still, slight slow push-in, background still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "be6a7391-092b-4b8d-acd1-c0afc558f8d3"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s05",
+      "scene": 5,
+      "duration_s": 4,
+      "shot_type": "bidder hands insert",
+      "camera": "85mm locked",
+      "action": "Paddles rise in pools of gaslight.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, three white-gloved hands holding ivory bid paddles rising in three separate warm pools of gaslight against pure darkness, one lace cuff, one tweed cuff, one black satin cuff, no faces anywhere, elegant and graphic",
+      "video_prompt": "the three gloved hands rise one after another in rhythm, paddles lifting up-up-up, the pools of light and the darkness stay fixed",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s06",
+      "scene": 6,
+      "duration_s": 4,
+      "shot_type": "the cane bidder",
+      "camera": "50mm slow push",
+      "action": "The gentleman with the silver cane bids.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, rear of the auction hall, one figure in a black opera cape and black top hat seated alone among empty chairs in shadow, face entirely in black shadow, backlit by a single gas wall-lamp halo, raising a silver-handled ebony cane, the silver cane-head gleaming, one figure only, face never visible",
+      "video_prompt": "the caped figure raises the silver-handled ebony cane once, unhurried, the cape edge stirs slightly, his face stays in full shadow, slow push toward him",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s07",
+      "scene": 7,
+      "duration_s": 4,
+      "shot_type": "Hale notices",
+      "camera": "50mm close, locked",
+      "action": "The grin fades. He leans in.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 50mm close-up of <<<4714e398-6a9a-4d96-a119-00a87138dc6f>>>, a late-30s clerk, charcoal Victorian frock coat, white wing-collar shirt, burgundy striped silk cravat, short dark-brown side-parted hair, holding a leather bidding ledger with pen frozen mid-entry, glancing sideways off-frame, easy grin just beginning to fade, warm gaslight key with half his face falling toward shadow, warm bokeh behind, one man only",
+      "video_prompt": "<<<4714e398-6a9a-4d96-a119-00a87138dc6f>>> glances off-frame toward the pedestal, his grin fades into a worried frown, he leans slowly sideways as if to whisper, nothing else moves",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "4714e398-6a9a-4d96-a119-00a87138dc6f"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s08",
+      "scene": 8,
+      "duration_s": 4,
+      "shot_type": "THE TWIST insert",
+      "camera": "85mm slow push",
+      "action": "Dome intact. Raven gone. A calling card.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 85mm close-up of the same glass display dome, perfectly intact, over a now-EMPTY white marble plinth, a single white calling card with a black wax seal propped upright where the statuette stood, thin fog curling around the pedestal base, the same warm spotlight now edged with cold blue, dark velvet backdrop, no people",
+      "video_prompt": "thin fog curls slowly around the dome base, one gaslight flicker passes across the glass, the calling card and empty plinth stay perfectly still, slow push-in",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s09",
+      "scene": 9,
+      "duration_s": 4,
+      "shot_type": "the pivot",
+      "camera": "50mm chest-up, locked",
+      "action": "Surprise for one blink \u2014 then DELIGHT.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 50mm chest-up of <<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>>, a distinguished 60s auctioneer, black Victorian frock coat with silk lapels, white wing-collar shirt, teal paisley silk cravat, swept-back white hair, full white goatee beard, face lit with enormous theatrical delight, sweeping an ivory-handled gavel in a grand presenting gesture toward an off-frame pedestal, thin fog drifting at the bottom of frame, gaslight key, one man only",
+      "video_prompt": "<<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>> blinks once in surprise then blooms into enormous delight, sweeping the ivory-handled gavel in one grand showman's gesture toward off-frame, fog drifts low, background still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "be6a7391-092b-4b8d-acd1-c0afc558f8d3"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s10",
+      "scene": 10,
+      "duration_s": 4,
+      "shot_type": "the surrender two-shot",
+      "camera": "35mm locked",
+      "action": "Gaslights gutter; Hale raises his own paddle.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 35mm two-shot at the mahogany rostrum: <<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>>, black Victorian frock coat with silk lapels, white wing-collar shirt, teal paisley silk cravat, swept-back white hair, full white goatee beard, beaming expectantly, and <<<4714e398-6a9a-4d96-a119-00a87138dc6f>>>, charcoal Victorian frock coat, white wing-collar shirt, burgundy striped silk cravat, short dark-brown side-parted hair, wearing the pained face of a man betraying himself while slowly raising an ivory bid paddle, low fog across the stage floor, chandelier flames guttering, leather bidding ledger set down on the rostrum, two men only",
+      "video_prompt": "the chandelier flames gutter so the light pulses gently, <<<4714e398-6a9a-4d96-a119-00a87138dc6f>>> slowly raises the ivory bid paddle with a pained reluctant face, <<<be6a7391-092b-4b8d-acd1-c0afc558f8d3>>> beams wider and nods, fog drifts, both men otherwise planted",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "be6a7391-092b-4b8d-acd1-c0afc558f8d3",
+        "4714e398-6a9a-4d96-a119-00a87138dc6f"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s11",
+      "scene": 11,
+      "duration_s": 4,
+      "shot_type": "gavel macro",
+      "camera": "85mm macro, locked",
+      "action": "The gavel falls. SOLD.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, 85mm macro of an ivory-handled gavel poised above the dark mahogany rostrum block, wood grain sharp, the edge of a leather bidding ledger beside it, single warm key light, deep shadow around, no faces",
+      "video_prompt": "the ivory-handled gavel rises slightly and falls ONCE with a crisp strike, a small puff of dust-fog kicks at impact, everything else stays still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s12",
+      "scene": 12,
+      "duration_s": 5,
+      "shot_type": "title plate",
+      "camera": "24mm wide, locked",
+      "action": "Empty hall in fog. Title.",
+      "dialogue": null,
+      "start_frame_prompt": "opulent Victorian period film still, 1895 London auction house, warm gaslight amber over deep mahogany and crimson velvet, candlelit chiaroscuro, brass fittings, oil paintings in gilt frames, gentle film grain, Sherlock Holmes period drama cinematography, wide shot from the stage looking out over the empty auction hall, rows of empty chairs in drifting low fog, one gas wall-lamp glowing with a halo, the empty glass display dome on its pedestal catching the lamplight, embers of amber in darkness, zero people",
+      "video_prompt": "fog drifts slowly between the chairs, the gas flame breathes gently, barely perceptible slow push, all else still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.8
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    }
+  ],
+  "audio": {
+    "music": [
+      {
+        "id": "m01_waltz",
+        "prompt": "elegant Victorian string quartet waltz with harpsichord, sly playful undertone, subtly accelerating, stops dead at the end on a sharp cut",
+        "duration_s": 28,
+        "start_at_s": 0,
+        "gain_db": -7
+      },
+      {
+        "id": "m02_mystery",
+        "prompt": "Sherlock Holmes style pizzicato mystery strings, mischievous tiptoeing, sly and comedic, ending with two clean final plucked notes",
+        "duration_s": 21,
+        "start_at_s": 28,
+        "gain_db": -7
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01_pembroke",
+        "character": "PEMBROKE",
+        "text": "Lot thirteen, the Jeweled Raven of Marylebone! Fifty pounds \u2014 fifty, do I hear sixty, sixty from the colonel, seventy, eighty, don't blink madam you'll cost yourself a fortune, ninety at the back, one hundred from the gentleman with the silver cane \u2014",
+        "voice": "Rupert (en)",
+        "start_at_s": 8.6,
+        "gain_db": 0
+      },
+      {
+        "id": "d02_hale",
+        "character": "HALE",
+        "text": "Sir. The raven is gone.",
+        "voice": "Callum (en)",
+        "start_at_s": 25.6,
+        "gain_db": 0
+      },
+      {
+        "id": "d03_pembroke",
+        "character": "PEMBROKE",
+        "text": "A genuine vanishing, one of one, the empty plinth, provenance: stolen this very instant before forty witnesses \u2014 do I hear two hundred?!",
+        "voice": "Rupert (en)",
+        "start_at_s": 31.6,
+        "gain_db": 0
+      },
+      {
+        "id": "d04_hale",
+        "character": "HALE",
+        "text": "... Two hundred.",
+        "voice": "Callum (en)",
+        "start_at_s": 39.8,
+        "gain_db": 0
+      },
+      {
+        "id": "d05_pembroke",
+        "character": "PEMBROKE",
+        "text": "Sold! To my own clerk. Heaven help us both.",
+        "voice": "Rupert (en)",
+        "start_at_s": 42.6,
+        "gain_db": 0
+      }
+    ],
+    "sfx": [
+      {
+        "id": "x01_hall_amb",
+        "prompt": "refined Victorian crowd murmur, fireplace crackle, settling wooden chairs, quiet opulent room tone",
+        "duration_s": 49,
+        "start_at_s": 0,
+        "gain_db": -14
+      },
+      {
+        "id": "x02_velvet",
+        "prompt": "soft velvet cloth whoosh pulled away followed by a delicate jewel twinkle shimmer",
+        "duration_s": 3,
+        "start_at_s": 8.2,
+        "gain_db": -6
+      },
+      {
+        "id": "x03_gasp",
+        "prompt": "collective refined audience gasp followed by worried murmuring swell, period drawing room",
+        "duration_s": 4,
+        "start_at_s": 28.1,
+        "gain_db": -6
+      },
+      {
+        "id": "x04_gas_flutter",
+        "prompt": "gas lamp flames fluttering and guttering, eerie airy whoosh, glass chimney rattle",
+        "duration_s": 4,
+        "start_at_s": 36,
+        "gain_db": -8
+      },
+      {
+        "id": "x05_gavel",
+        "prompt": "single crisp wooden gavel crack on a hardwood block, close, dry, authoritative",
+        "duration_s": 2,
+        "start_at_s": 42.2,
+        "gain_db": -3
+      }
+    ]
+  }
+}

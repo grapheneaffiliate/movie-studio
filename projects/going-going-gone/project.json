@@ -1,0 +1,29 @@
+{
+  "slug": "going-going-gone",
+  "title": "Going Going Gone",
+  "created": "2026-06-12",
+  "user_prompt": "Two men from photo as real-time auctioneers in upscale Victorian Sherlock Holmes era auction hall. Grey-haired man auctions ultra-fast; classy, funny, ironic, wild twists. 50 seconds.",
+  "deliverable": "short_film",
+  "stage": "production",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 145,
+    "spent_credits": 0,
+    "ledger": [],
+    "opening_balance": 1758.01
+  },
+  "continuity_assets": {
+    "elements": {
+      "pembroke-auctioneer": "be6a7391-092b-4b8d-acd1-c0afc558f8d3",
+      "hale-clerk": "4714e398-6a9a-4d96-a119-00a87138dc6f"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {},
+  "notes": [
+    "two elements from one user photo (face crops); audience as hands/silhouettes per no-crowds law",
+    "voices: Rupert (en)=Pembroke fast patter, Callum (en)=Hale; patter written as run-ons to push TTS speed",
+    "est 145cr (12 img + 49s video + 7 audio + margin), under gate; opening balance 1758.01"
+  ]
+}
