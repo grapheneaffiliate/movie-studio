@@ -1,0 +1,368 @@
+{
+  "project": "grey-protocol",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 50,
+  "characters": [
+    {
+      "id": "ASSET",
+      "name": "The Asset (user's likeness)",
+      "continuity_method": "element",
+      "element_id": "28087740-12dd-485c-89ff-9b87ab8b68c4",
+      "wardrobe": "charcoal waxed field jacket zipped to the chest, heather-grey crew-neck t-shirt, dark jeans, round dark-teal acetate glasses, short silver-blond side-swept hair, light grey stubble",
+      "voice": "Graham (en) \u2014 dry unhurried baritone",
+      "notes": "PURSUER: faceless, black raincoat, never closer than 30m"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "duration_s": 4,
+      "shot_type": "CCTV monitor wall",
+      "camera": "28mm locked over empty chair",
+      "action": "Ops room finds his face on every screen.",
+      "dialogue": null,
+      "start_frame_prompt": "grainy desaturated security-camera frame, slight fisheye distortion, scan lines, cold green-grey cast, dark operations room, wall of CCTV monitors with twelve screens, the same face repeated on every screen: <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man with round dark-teal acetate glasses and short silver-blond side-swept hair caught mid-stride on grainy street footage, one keyboard silhouette in foreground, monitor glow the only light, no people in the room",
+      "video_prompt": "the monitor images flicker and re-acquire, one screen slowly digitally zooms on the man's face, the dark room and desk stay perfectly still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.4
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s02",
+      "scene": 2,
+      "duration_s": 4,
+      "shot_type": "alley fast-walk",
+      "camera": "28mm handheld backpedal, waist-up",
+      "action": "He's already moving; one glance over the shoulder.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, narrow old-European stone alley at rainy dusk, 28mm waist-up of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man, charcoal waxed field jacket zipped to the chest, heather-grey crew-neck t-shirt, dark jeans, round dark-teal acetate glasses, short silver-blond side-swept hair, light grey stubble, walking fast toward camera on rain-slick cobblestones, one sodium street lamp glowing far behind him, thin rain falling, one man only, no other people",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> walks fast toward camera and throws one quick glance over his left shoulder without breaking stride, thin rain falls, subtle handheld shake, alley walls stay fixed",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s03",
+      "scene": 3,
+      "duration_s": 4,
+      "shot_type": "phone insert",
+      "camera": "85mm static, chest-high",
+      "action": "Burner phone read; snap shut.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, 85mm close-up of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man with round dark-teal acetate glasses, light grey stubble, charcoal waxed field jacket, holding an open matte-black burner flip phone, pale screen glow underlighting his face, screen content blurred and out of focus, rain beads on the phone shell, alley wall bokeh behind, one man only",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> reads the phone for one beat then snaps the matte-black burner flip phone shut with one hand, his jaw sets, nothing else moves, camera static",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s04",
+      "scene": 4,
+      "duration_s": 4,
+      "shot_type": "SUV corner",
+      "camera": "28mm handheld at curb height",
+      "action": "Black SUV takes the wet corner hard.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, low curb-height shot of a black SUV with halogen headlights and tinted glass swinging around a wet cobblestone street corner, spray of standing water, stone facades, headlight flare raking the lens, sodium lamp accents, zero people visible",
+      "video_prompt": "the black SUV swings hard around the corner toward camera, water sprays off the cobblestones, halogen headlights flare past the lens, buildings stay static, handheld shake",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s05",
+      "scene": 5,
+      "duration_s": 4,
+      "shot_type": "rooftop sprint",
+      "camera": "28mm handheld lateral track",
+      "action": "Sprint through scattering pigeons.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, full-body 28mm of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man, charcoal waxed field jacket zipped to the chest, heather-grey crew-neck t-shirt, dark jeans, round dark-teal acetate glasses, short silver-blond side-swept hair, light grey stubble, sprinting left to right along a flat gravel rooftop with a low brick parapet, six grey pigeons bursting upward around him, slate rooftops and chimneys to the horizon, flat overcast daylight, one man only",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> sprints left to right at controlled speed with arms driving, six pigeons scatter upward around him, camera tracks laterally with handheld shake, the skyline stays level",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s06",
+      "scene": 6,
+      "duration_s": 5,
+      "shot_type": "fire-escape descent",
+      "camera": "28mm low angle, static",
+      "action": "Two flights down, hand skimming the rail.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, low-angle shot up a steel fire-escape staircase with a black painted rail in a brick lightwell, two switchback flights visible, wet treads, cold toplight down the shaft, <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man, charcoal waxed field jacket zipped to the chest, heather-grey crew-neck t-shirt, dark jeans, round dark-teal acetate glasses, short silver-blond side-swept hair, light grey stubble, descending the upper flight, one man only",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> descends two flights fast, one hand skimming the black painted rail, coat-tail swinging, boots ringing on the wet treads, the staircase and brick walls stay rigid, camera locked low",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s07",
+      "scene": 7,
+      "duration_s": 4,
+      "shot_type": "platform stride",
+      "camera": "28mm handheld behind shoulder",
+      "action": "Empty platform; the train slides in alongside.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, night rail platform, 28mm from behind the shoulder of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man, charcoal waxed field jacket zipped to the chest, heather-grey crew-neck t-shirt, dark jeans, round dark-teal acetate glasses, short silver-blond side-swept hair, light grey stubble, striding fast along the yellow platform safety line, empty platform receding to a vanishing point, a commuter train sliding in alongside with lit windows streaking, sodium platform lamps overhead, one man only, no other people",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> strides fast along the yellow platform safety line, the commuter train decelerates alongside him with windows streaking then slowing, camera follows behind his shoulder with handheld shake",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s08",
+      "scene": 8,
+      "duration_s": 4,
+      "shot_type": "door slip",
+      "camera": "35mm inside carriage, static",
+      "action": "Through the closing doors with 10 cm to spare.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, shot from inside a lit train carriage toward the open stainless train doors with rubber edge seals, dark night platform beyond, <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man, charcoal waxed field jacket zipped to the chest, heather-grey crew-neck t-shirt, dark jeans, round dark-teal acetate glasses, short silver-blond side-swept hair, light grey stubble, stepping toward the narrowing door gap, warm carriage light against cold blue platform, one man only",
+      "video_prompt": "the stainless train doors slide toward closed, <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> turns sideways and slips through the gap at the last second, the doors seal behind him, carriage interior steady, camera static",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s09",
+      "scene": 9,
+      "duration_s": 4,
+      "shot_type": "pursuer left behind",
+      "camera": "85mm from departing train, drift",
+      "action": "The pursuer, one breath late, motionless.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, 85mm long-lens from the height of a departing train: one distant man in a long black raincoat standing perfectly still on an emptying night rail platform, backlit by sodium platform lamps, a black cutout with no facial detail, the last carriage edge exiting frame, one man only, far away",
+      "video_prompt": "the camera drifts away with the departing train, the man in the long black raincoat stands perfectly still as the platform recedes and smears to bokeh, he does not move at all",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s10",
+      "scene": 10,
+      "duration_s": 4,
+      "shot_type": "carriage exhale",
+      "camera": "50mm across aisle, static",
+      "action": "Head back against the glass; the city streaks.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, interior of an empty night commuter carriage, 50mm across the aisle of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man, charcoal waxed field jacket over heather-grey crew-neck t-shirt, round dark-teal acetate glasses, short silver-blond side-swept hair, seated at a window seat with his head leaning back against the glass, night city lights streaking past the window and reflecting across his glasses, cool fluorescent carriage light, empty seats, no other passengers",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> leans his head back against the glass and exhales once slowly, city lights streak continuously across the window and his glasses, the carriage sways gently, camera static",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s11",
+      "scene": 11,
+      "duration_s": 4,
+      "shot_type": "fisheye nod",
+      "camera": "14mm ceiling fisheye, locked",
+      "action": "He looks straight into the camera. One nod.",
+      "dialogue": null,
+      "start_frame_prompt": "grainy desaturated security-camera frame, slight fisheye distortion, scan lines, cold green-grey cast, fisheye surveillance camera view from the ceiling corner of an empty night train carriage, seat rows curving with the lens distortion, <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man, charcoal waxed field jacket, round dark-teal acetate glasses, short silver-blond side-swept hair, seated alone at center frame looking up directly into the camera, flat grainy security exposure, no other passengers",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> lifts his face directly to the surveillance camera and gives one slow deliberate nod, nothing else in the carriage moves, locked fisheye frame",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "28087740-12dd-485c-89ff-9b87ab8b68c4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s12",
+      "scene": 12,
+      "duration_s": 5,
+      "shot_type": "title plate",
+      "camera": "28mm wide, locked, slow push",
+      "action": "Empty wet platform. Title in post.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty handheld 35mm film still, cold steel-blue and slate-grey grade, desaturated, overcast northern European city, rain-slick surfaces, available-light documentary realism, film grain, wide night shot of an empty rain-slick rail platform after the train has gone, one sodium platform lamp haloed in drizzle, yellow platform safety line, empty rails, blue-black night, zero people",
+      "video_prompt": "drizzle drifts through the sodium lamp halo, barely perceptible slow push forward, everything else perfectly still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.8
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    }
+  ],
+  "audio": {
+    "music": [
+      {
+        "id": "m01_pursuit",
+        "prompt": "Jason Bourne style propulsive action score, ticking hi-hats, driving string ostinato, electronic sub-bass pulses, brass stabs, relentless acceleration, hard stop at the end",
+        "duration_s": 33,
+        "start_at_s": 0,
+        "gain_db": -6
+      },
+      {
+        "id": "m02_aftermath",
+        "prompt": "cool-down electronic spy-thriller pulse, sparse piano notes over low sustained strings, controlled and unresolved tension, two final percussion hits at the very end",
+        "duration_s": 17,
+        "start_at_s": 33,
+        "gain_db": -6
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01_asset",
+        "character": "ASSET",
+        "text": "They picked the wrong city.",
+        "voice": "Graham (en)",
+        "start_at_s": 31,
+        "gain_db": 0
+      }
+    ],
+    "sfx": [
+      {
+        "id": "x01_ops_rain",
+        "prompt": "dark operations room electronic monitor chirps and hum fading into steady city rain on stone ambience",
+        "duration_s": 16,
+        "start_at_s": 0,
+        "gain_db": -12
+      },
+      {
+        "id": "x02_phone_snap",
+        "prompt": "single sharp flip phone snapping shut, close dry foley",
+        "duration_s": 2,
+        "start_at_s": 9.5,
+        "gain_db": -3
+      },
+      {
+        "id": "x03_pursuit_bed",
+        "prompt": "SUV engine surge and tire splash on wet cobbles, pigeon wingbeats, running boots ringing on steel stairs, urgent city pursuit texture",
+        "duration_s": 12,
+        "start_at_s": 16,
+        "gain_db": -8
+      },
+      {
+        "id": "x04_train_doors",
+        "prompt": "train brakes singing on arrival, pneumatic door hiss and heavy thunk seal, station ambience",
+        "duration_s": 5,
+        "start_at_s": 28,
+        "gain_db": -4
+      },
+      {
+        "id": "x05_train_interior",
+        "prompt": "muffled rhythmic train interior rumble, gentle carriage sway, rail clatter, night journey",
+        "duration_s": 17,
+        "start_at_s": 33,
+        "gain_db": -12
+      }
+    ]
+  }
+}
