@@ -9,8 +9,21 @@
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 150,
-    "spent_credits": 0,
-    "ledger": [],
+    "spent_credits": 109.5,
+    "ledger": [
+      {
+        "what": "11 start frames nano_banana (1.5cr ea)",
+        "credits": 16.5
+      },
+      {
+        "what": "11 video shots kling3_0 std sound-off, 50s total (~1.5cr/s)",
+        "credits": 75
+      },
+      {
+        "what": "sound dept: 2 music cues, 1 TTS line, 4 sfx",
+        "credits": 18
+      }
+    ],
     "opening_balance": 2053.04
   },
   "continuity_assets": {
@@ -19,7 +32,37 @@
     },
     "souls": {}
   },
-  "higgsfield_jobs": {},
+  "higgsfield_jobs": {
+    "s01_frame": "66c4729b-ef93-48b4-a565-c4aa7bdb7892",
+    "s02_frame": "9e4a3dcc-083d-41c7-9186-8f34230b6226",
+    "s03_frame": "5e456e66-958f-4951-83d8-a9c2d911397c",
+    "s04_frame": "5e33177d-6b3f-44f6-9a23-eb5ed5616a87",
+    "s05_frame": "3f424d17-c6e7-4c62-a476-fc09d0916c8c",
+    "s06_frame": "41a8ceb1-eecc-480f-864b-f9c8a9a49018",
+    "s07_frame": "c59649b0-42a6-4f06-9e3d-28f2216ae55b",
+    "s08_frame": "49cb981d-36ec-4d95-a37e-10d36838c80c",
+    "s09_frame": "73d930ed-602f-402d-87de-ee165fd95b3d",
+    "s10_frame": "eda14e9f-d9c9-4955-9435-d54942798cb8",
+    "s11_frame": "46b2f164-29b7-4975-852e-4d4cb9a51025",
+    "s01_video": "6f190951-992b-4f06-9aa1-75898d67f0d5",
+    "s02_video": "2e5662b4-dcda-44ac-87e4-34324be594f8",
+    "s03_video": "44c27f2c-5fc2-4b02-bc1e-6c491c943ed3",
+    "s04_video": "b1a7c898-50e5-415b-8152-9b999993cada",
+    "s05_video": "e98033d2-fb18-4588-aff5-138b487811e9",
+    "s06_video": "02626e9f-ac71-49fa-8087-99886cd1bc60",
+    "s07_video": "0f6a3c5a-d228-4512-9486-f7940980ba4f",
+    "s08_video": "1c39f22c-844c-4a72-adf2-51d688dfb009",
+    "s09_video": "0921d424-2a4e-44c0-871e-637c169f7ab6",
+    "s10_video": "b900d0f0-b4e6-4fe4-8c0c-ecf73be5ff63",
+    "s11_video": "fa7ea1aa-9535-45a7-b363-2de048683b31",
+    "m01_war_drums": "eff92862-d06d-46eb-acb7-60a5fc56ca56",
+    "m02_garden_theme": "295ff47a-338e-4be9-ab28-2609f359b0ec",
+    "d01_keeper": "07f74869-d7a3-4aba-852a-bf9d06c13a28",
+    "x01_engines": "89a6fb1d-ca71-4039-954d-e0dc27a21f87",
+    "x02_garden_amb": "8264a4b6-f78b-42ec-b449-d5486de585e9",
+    "x03_goggle_hit": "6198e51e-ae94-4808-bb56-ce2deadd752a",
+    "x04_doppler": "20a0855a-05f4-4913-bd4f-d85f523cf1e8"
+  },
   "notes": [
     "premise A 'The Last Green Place' chosen from 3-premise brainstorm (first-idea rule); user approved with 'proceed'",
     "identity gate: user supplied own photo for likeness -> Element from refs/hero_reference.jpg",
@@ -30,7 +73,9 @@
     "cost preflight: image 1.5cr, video std 5s 7.5cr (~1.5/s), music ~2cr, sfx ~0.25cr/s -> estimate ~150cr incl retakes; under 500 gate, no ask needed",
     "kling3_0 sound:off everywhere (own sound design), mode std",
     "voice cast: Graham (en) for KEEPER - dry unhurried baritone",
-    "no chains used: every shot has distinct composition; identity held by Element + verbatim wardrobe tokens"
+    "no chains used: every shot has distinct composition; identity held by Element + verbatim wardrobe tokens",
+    "s07 transient 'element not ready' -> immediate retry OK",
+    "s09 preset_recommendation intercepted -> declined, literal retry OK"
   ],
   "aspect_ratio": "16:9"
 }

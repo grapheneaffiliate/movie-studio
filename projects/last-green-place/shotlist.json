@@ -36,7 +36,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s01_frame_t01.png",
+          "kind": "start_frame",
+          "job": "66c4729b-ef93-48b4-a565-c4aa7bdb7892",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s02",
@@ -58,7 +73,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s02_frame_t01.png",
+          "kind": "start_frame",
+          "job": "9e4a3dcc-083d-41c7-9186-8f34230b6226",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s03",
@@ -80,7 +110,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s03_frame_t01.png",
+          "kind": "start_frame",
+          "job": "5e456e66-958f-4951-83d8-a9c2d911397c",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s04",
@@ -102,7 +147,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s04_frame_t01.png",
+          "kind": "start_frame",
+          "job": "5e33177d-6b3f-44f6-9a23-eb5ed5616a87",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s05",
@@ -124,7 +184,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s05_frame_t01.png",
+          "kind": "start_frame",
+          "job": "3f424d17-c6e7-4c62-a476-fc09d0916c8c",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s06",
@@ -148,7 +223,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s06_frame_t01.png",
+          "kind": "start_frame",
+          "job": "41a8ceb1-eecc-480f-864b-f9c8a9a49018",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s07",
@@ -172,7 +262,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s07_frame_t01.png",
+          "kind": "start_frame",
+          "job": "c59649b0-42a6-4f06-9e3d-28f2216ae55b",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s08",
@@ -194,7 +299,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s08_frame_t01.png",
+          "kind": "start_frame",
+          "job": "49cb981d-36ec-4d95-a37e-10d36838c80c",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s09",
@@ -219,7 +339,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s09_frame_t01.png",
+          "kind": "start_frame",
+          "job": "73d930ed-602f-402d-87de-ee165fd95b3d",
+          "grades": {
+            "fidelity": 4,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "tighter than SPEC (no garden fg, wall directly behind) but dramatically stronger; approved as variation"
+        }
+      ]
     },
     {
       "id": "s10",
@@ -243,7 +378,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s10_frame_t01.png",
+          "kind": "start_frame",
+          "job": "eda14e9f-d9c9-4955-9435-d54942798cb8",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     },
     {
       "id": "s11",
@@ -266,7 +416,22 @@
       "status": "pending",
       "takes": [],
       "approved_take": null,
-      "review_notes": []
+      "review_notes": [
+        {
+          "take": "s11_frame_t01.png",
+          "kind": "start_frame",
+          "job": "46b2f164-29b7-4975-852e-4d4cb9a51025",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        }
+      ]
     }
   ],
   "audio": {

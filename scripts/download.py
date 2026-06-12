@@ -13,7 +13,7 @@ Usage:
 
 Verifies the file is non-trivial and (for video/audio) ffprobe-readable.
 """
-import sys, json, subprocess, urllib.request, argparse
+import sys, json, subprocess, urllib.request
 from pathlib import Path
 
 def fetch(url: str, dest: Path):
@@ -33,15 +33,15 @@ def fetch(url: str, dest: Path):
     print(f"OK {dest} ({size/1e6:.2f} MB)")
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("url_or_flag"); ap.add_argument("dest", nargs="?")
-    a = ap.parse_args()
-    if a.url_or_flag == "--batch":
-        for item in json.loads(Path(a.dest).read_text()):
+    # argparse would eat the literal "--batch" flag as an option; parse by hand
+    args = sys.argv[1:]
+    if len(args) != 2:
+        sys.exit("usage: download.py <url> <dest>  |  download.py --batch manifest.json")
+    if args[0] == "--batch":
+        for item in json.loads(Path(args[1]).read_text()):
             fetch(item["url"], Path(item["dest"]))
     else:
-        if not a.dest: sys.exit("usage: download.py <url> <dest>")
-        fetch(a.url_or_flag, Path(a.dest))
+        fetch(args[0], Path(args[1]))
 
 if __name__ == "__main__":
     main()
