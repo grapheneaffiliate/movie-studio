@@ -35,10 +35,26 @@
         "type": "fadeblack",
         "duration_s": 0.4
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "monitors flicker, one zooms his face"
+        }
+      ]
     },
     {
       "id": "s02",
@@ -59,10 +75,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "fast walk + shoulder glance, rain"
+        }
+      ]
     },
     {
       "id": "s03",
@@ -83,10 +115,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "reads, lowers, pockets - jaw sets; morph avoided"
+        }
+      ]
     },
     {
       "id": "s04",
@@ -105,10 +153,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4"
+      ],
+      "approved_take": "s04_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "SUV crash-in, headlight flare"
+        }
+      ]
     },
     {
       "id": "s05",
@@ -129,10 +193,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 4,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "sprint toward camera, pigeons scatter (frontal not lateral - approved variation)"
+        }
+      ]
     },
     {
       "id": "s06",
@@ -153,10 +233,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4"
+      ],
+      "approved_take": "s06_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "two-flight descent, hand on rail"
+        }
+      ]
     },
     {
       "id": "s07",
@@ -177,10 +273,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4"
+      ],
+      "approved_take": "s07_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "platform stride, train streaking alongside"
+        }
+      ]
     },
     {
       "id": "s08",
@@ -201,10 +313,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "door slip with seal behind him"
+        }
+      ]
     },
     {
       "id": "s09",
@@ -223,10 +351,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4"
+      ],
+      "approved_take": "s09_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "pursuer stillness as platform recedes"
+        }
+      ]
     },
     {
       "id": "s10",
@@ -247,10 +391,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4"
+      ],
+      "approved_take": "s10_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "exhale, light streaks on glasses"
+        }
+      ]
     },
     {
       "id": "s11",
@@ -271,10 +431,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "fisheye nod direct to lens - signature shot"
+        }
+      ]
     },
     {
       "id": "s12",
@@ -294,10 +470,26 @@
         "type": "fadeblack",
         "duration_s": 0.8
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s12_t01.mp4"
+      ],
+      "approved_take": "s12_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s12_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "drizzle through lamp halo, title plate"
+        }
+      ]
     }
   ],
   "audio": {

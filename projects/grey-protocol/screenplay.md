@@ -277,3 +277,10 @@ sound-hook: final two score hits, then rain alone (m02 ends, x01 rain tail)
 - Phone screen explicitly out-of-focus (AI text law). Departure boards avoided entirely.
 - s11 fisheye nod = the signature shot: he breaks the surveillance fourth wall.
 - All cuts hard; the title plate is the only fade. One V.O. line, placed over the pursuer's stillness.
+
+### Director's log (production)
+- 12/12 start frames approved take 1 (single review sheet); 12/12 videos approved take 1. Zero retakes.
+- s03 phone generated as slab -> motion changed from snap-shut to lower-and-pocket before animating (morph insurance, no credits lost).
+- s05 sprint came back frontal instead of lateral track; approved as variation - frontal pressure matches s04's grammar.
+- Preset interception pre-declined on all video calls; zero submission errors this run.
+- DELIVERED: final/grey-protocol_final.mp4, 48.8s, title burned in post.
