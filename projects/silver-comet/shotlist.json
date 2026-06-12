@@ -32,10 +32,26 @@
         "type": "fadeblack",
         "duration_s": 0.4
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "streak + contrail crosses, towers still"
+        }
+      ]
     },
     {
       "id": "s02",
@@ -56,10 +72,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "cup lift + head snap, glasses on (civilian)"
+        }
+      ]
     },
     {
       "id": "s03",
@@ -80,10 +112,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "glasses folded and set down - the tell"
+        }
+      ]
     },
     {
       "id": "s04",
@@ -104,10 +152,33 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4",
+        "s04_t02.mp4"
+      ],
+      "approved_take": "s04_t02.mp4",
+      "review_notes": [
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "verdict": "retake",
+          "why": "CONTINUITY: glasses still on during reveal after s03 glasses-off beat; t02 frame regenerated without glasses"
+        },
+        {
+          "take": "s04_t02.mp4",
+          "kind": "video (retake)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "no glasses; reveal reads as full transformation beat"
+        }
+      ]
     },
     {
       "id": "s05",
@@ -128,10 +199,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "rockets up + dust ring - textbook launch"
+        }
+      ]
     },
     {
       "id": "s06",
@@ -152,10 +239,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4"
+      ],
+      "approved_take": "s06_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "flight over clouds, cape ripple"
+        }
+      ]
     },
     {
       "id": "s07",
@@ -174,10 +277,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4"
+      ],
+      "approved_take": "s07_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "cable whip + platform lurch + worker grips"
+        }
+      ]
     },
     {
       "id": "s08",
@@ -198,10 +317,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dive down glass to the platform - the catch reads"
+        }
+      ]
     },
     {
       "id": "s09",
@@ -222,10 +357,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4"
+      ],
+      "approved_take": "s09_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "cape settles low-angle hero; two workers visible vs one spec'd (minor)"
+        }
+      ]
     },
     {
       "id": "s10",
@@ -246,10 +397,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4"
+      ],
+      "approved_take": "s10_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "warm smile then liftoff blur out of frame"
+        }
+      ]
     },
     {
       "id": "s11",
@@ -268,10 +435,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "sonic ring bloom + looping contrail - spectacular"
+        }
+      ]
     },
     {
       "id": "s12",
@@ -291,10 +474,26 @@
         "type": "fadeblack",
         "duration_s": 0.8
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s12_t01.mp4"
+      ],
+      "approved_take": "s12_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s12_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "contrail feathers, dusk plate"
+        }
+      ]
     }
   ],
   "audio": {

@@ -212,3 +212,8 @@ sound-hook: final warm chord; V.O., warm: "Just a neighbor, passing through." (d
 - One worker, hi-vis, never close: stakes without crowds. The catch is shot
   falling WITH them (kling's best axis).
 - Voice: Graham (en) — the same baritone as his Bourne film; same universe.
+
+### Director's log (production)
+- 12/12 frames approved t01; 11/12 videos approved t01. ONE retake: s04 reveal had glasses on after the s03 glasses-off beat (continuity) - caught on the contact sheet, frame+video regenerated without glasses; t02 reads as a full transformation.
+- s09 set-down shows two hi-vis workers vs one spec'd; approved (reads as site crew).
+- DELIVERED: final/silver-comet_final.mp4, 47.8s, title burned in post.

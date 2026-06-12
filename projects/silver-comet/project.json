@@ -4,14 +4,32 @@
   "created": "2026-06-12",
   "user_prompt": "50-second superhero video like Superman starring the man in the photo: mild-mannered to hero reveal, flight, a big save, original suit. Full script.",
   "deliverable": "short_film",
-  "stage": "production",
+  "stage": "delivered",
   "stages_done": [],
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 135,
-    "spent_credits": 0,
-    "ledger": [],
-    "opening_balance": 1630.44
+    "spent_credits": 113.82,
+    "ledger": [
+      {
+        "what": "12 start frames",
+        "credits": 18
+      },
+      {
+        "what": "sound: 2 music + 1 TTS + 6 sfx",
+        "credits": 22
+      },
+      {
+        "what": "12 video shots kling3_0, 49s",
+        "credits": 73.5
+      },
+      {
+        "what": "reconciliation vs opening balance (actual billed)",
+        "credits": 113.82
+      }
+    ],
+    "opening_balance": 1630.44,
+    "closing_balance": 1516.62
   },
   "continuity_assets": {
     "elements": {
@@ -19,11 +37,49 @@
     },
     "souls": {}
   },
-  "higgsfield_jobs": {},
+  "higgsfield_jobs": {
+    "s01_frame": "b86f13af-96e5-4849-8d2d-b2fbc3db73b4",
+    "s02_frame": "b2346d9b-75e5-4755-a5ad-a545fc727bb7",
+    "s03_frame": "2564d53a-f867-4e58-96f0-6bbc6a790886",
+    "s04_frame": "a2795a59-7c34-4a16-ad07-5dcc6c17cdd9",
+    "s05_frame": "fa20bec0-60c9-46b4-b60c-fc1f06f6871c",
+    "s06_frame": "643deff4-4c7c-4e66-a11d-d1d0711d287c",
+    "s07_frame": "ec0e7884-4f4f-400d-9d96-3d3685539a20",
+    "s08_frame": "2f079e06-7d74-44c6-b29d-4ab40ef35609",
+    "s09_frame": "b42220aa-c278-476c-9f41-6230a952b22f",
+    "s10_frame": "eaa0e08d-2ee2-4cfe-be1c-fb2b4a5c04cb",
+    "s11_frame": "bdca6875-d9dd-41fa-85f3-57501453bba3",
+    "s12_frame": "93e40a48-beea-4f42-8a2f-b8406d5ecd2a",
+    "m01_wonder": "04c89bc4-366d-4917-8814-65673d6c7616",
+    "m02_soar": "e4451a73-173f-4ccd-b164-e3ff65cbc0e0",
+    "d01_comet": "e8774084-b864-4ca6-b689-5e5fbd6be1fb",
+    "x01_city": "e1fedd12-9cbe-49ff-be06-a21cd35eb73c",
+    "x02_launch": "831e3add-d9e0-42eb-a6d7-990cb3ea14fb",
+    "x03_flight_wind": "63c87b32-491b-47e5-a789-06950a21ccae",
+    "x04_cable": "15a9a0b3-a88c-4e90-aef1-b045f7ed1ee7",
+    "x05_dive_catch": "09a3bc15-8bcb-46e1-8c3c-b6b685a29083",
+    "x06_boom": "04b62eab-4b24-4961-b798-206f762df4a3",
+    "s01_video": "b9e2498f-2619-448f-8ce9-7aecbd57af8b",
+    "s02_video": "457012a4-f0e7-4cb9-b150-9933204fb967",
+    "s03_video": "d8c80475-48b4-4236-91c9-b47fee990bad",
+    "s04_video": "10f6fc09-05cd-4319-8ff3-034a0e5e8950",
+    "s05_video": "1cfd08fc-d1d1-4a98-bd69-a52446b60fb5",
+    "s06_video": "b45e2f26-1425-4169-9065-7b71ece74a8b",
+    "s07_video": "548adf9b-8c44-4bd4-b487-c14d78d71d6b",
+    "s08_video": "24b60fdd-c073-420f-9ac7-c3da97e3e2e5",
+    "s09_video": "12111807-4643-4d9a-8164-420d116a8e0c",
+    "s10_video": "e82b16ba-30c0-4e47-a825-fac459640ce3",
+    "s11_video": "9d935a2a-0174-4e1c-8915-fe4867b24fb0",
+    "s12_video": "048917ef-7a80-4289-ab48-f592060429f7"
+  },
   "notes": [
     "original hero design - no DC trade dress (slate-blue + silver comet emblem); Superman GRAMMAR only",
     "element keeper-hero: two refs (new frontal + original photo)",
     "single hi-vis worker = stakes w/o crowds",
-    "voice Graham (en) - same baritone as grey-protocol, same universe"
+    "voice Graham (en) - same baritone as grey-protocol, same universe",
+    "all 12 frames approved t01 on review sheet; emblem reads original; likeness holds glasses-off",
+    "delivered: 47.8s final, both streams, QC cutsheet logged",
+    "one retake total: s04 reveal (glasses continuity) - caught in dailies, fixed t02",
+    "actual 113.82cr vs 135 estimate"
   ]
 }
