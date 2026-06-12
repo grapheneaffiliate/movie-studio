@@ -1,0 +1,36 @@
+{
+  "slug": "last-green-place",
+  "title": "Last Green Place",
+  "created": "2026-06-12",
+  "user_prompt": "Make a 50-second Mad Max style video starring the man in the reference photo (silver hair, round dark-teal glasses, grey t-shirt): wasteland war party tracks the legend of 'the last green place' to a fortress wall of welded car doors \u2014 inside is his serene suburban backyard garden; he waters tomatoes, feeds his rabbit, sips tea. Defiant peace. Premise A from brainstorm.",
+  "deliverable": "short_film",
+  "stage": "production",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 150,
+    "spent_credits": 0,
+    "ledger": [],
+    "opening_balance": 2053.04
+  },
+  "continuity_assets": {
+    "elements": {
+      "the-keeper": "28087740-12dd-485c-89ff-9b87ab8b68c4"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {},
+  "notes": [
+    "premise A 'The Last Green Place' chosen from 3-premise brainstorm (first-idea rule); user approved with 'proceed'",
+    "identity gate: user supplied own photo for likeness -> Element from refs/hero_reference.jpg",
+    "war party faceless/distant per generatability law",
+    "single dialogue line d01; smash-cut orange->green carries the story",
+    "title card via post drawtext, not AI text",
+    "opening Higgsfield balance 2053.04 cr (ultra)",
+    "cost preflight: image 1.5cr, video std 5s 7.5cr (~1.5/s), music ~2cr, sfx ~0.25cr/s -> estimate ~150cr incl retakes; under 500 gate, no ask needed",
+    "kling3_0 sound:off everywhere (own sound design), mode std",
+    "voice cast: Graham (en) for KEEPER - dry unhurried baritone",
+    "no chains used: every shot has distinct composition; identity held by Element + verbatim wardrobe tokens"
+  ],
+  "aspect_ratio": "16:9"
+}
