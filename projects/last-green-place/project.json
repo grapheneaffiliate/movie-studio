@@ -4,12 +4,12 @@
   "created": "2026-06-12",
   "user_prompt": "Make a 50-second Mad Max style video starring the man in the reference photo (silver hair, round dark-teal glasses, grey t-shirt): wasteland war party tracks the legend of 'the last green place' to a fortress wall of welded car doors \u2014 inside is his serene suburban backyard garden; he waters tomatoes, feeds his rabbit, sips tea. Defiant peace. Premise A from brainstorm.",
   "deliverable": "short_film",
-  "stage": "dailies",
+  "stage": "delivered",
   "stages_done": [],
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 150,
-    "spent_credits": 109.5,
+    "spent_credits": 110.89,
     "ledger": [
       {
         "what": "11 start frames nano_banana (1.5cr ea)",
@@ -22,9 +22,15 @@
       {
         "what": "sound dept: 2 music cues, 1 TTS line, 4 sfx",
         "credits": 18
+      },
+      {
+        "what": "reconciliation vs opening balance (actual billed)",
+        "credits": 110.89,
+        "note": "replaces running estimates"
       }
     ],
-    "opening_balance": 2053.04
+    "opening_balance": 2053.04,
+    "closing_balance": 1942.15
   },
   "continuity_assets": {
     "elements": {
@@ -75,7 +81,10 @@
     "voice cast: Graham (en) for KEEPER - dry unhurried baritone",
     "no chains used: every shot has distinct composition; identity held by Element + verbatim wardrobe tokens",
     "s07 transient 'element not ready' -> immediate retry OK",
-    "s09 preset_recommendation intercepted -> declined, literal retry OK"
+    "s09 preset_recommendation intercepted -> declined, literal retry OK",
+    "assemble.py bug found+fixed during post: sub-frame xfade 'cut' durations truncated the chain; now exactly 1 frame",
+    "final QC cutsheet + title lastframe verified; runtime 48.375s (-3.25% of 50s target)",
+    "actual spend 110.89cr vs 150cr estimate; zero retakes on 11 shots"
   ],
   "aspect_ratio": "16:9"
 }

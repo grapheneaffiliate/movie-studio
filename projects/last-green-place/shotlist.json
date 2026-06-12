@@ -349,9 +349,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4"
+      ],
+      "approved_take": "s07_t01.mp4",
       "review_notes": [
         {
           "take": "s07_frame_t01.png",
@@ -366,6 +368,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "leaf offered, rabbit reaches and bites, camera static; identity holds"
         }
       ]
     },

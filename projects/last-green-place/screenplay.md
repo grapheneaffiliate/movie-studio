@@ -247,3 +247,9 @@ sound-hook: engine roar Dopplers away and resolves into birdsong; one final drum
 - One dialogue line only; the cut from orange to green carries the story.
 - User's likeness via Element from refs/hero_reference.jpg — supplied by the user for this purpose (identity gate satisfied).
 - Title card via drawtext in post (free, deterministic) over a generated dusk plate, not AI text rendering.
+
+- PRODUCTION: 11/11 start frames approved take 1; 11/11 video takes approved take 1; zero retakes.
+- s07 transient element-lock error: one retry. s09 preset interception: declined, literal retry.
+- POST: found+fixed assemble.py sub-frame xfade bug (cuts collapsed the chain to 5s).
+- SOUND: 7 stems verified; d01 1.92s fits its 4s shot; music ducked -7dB under the line.
+- DELIVERED: final/last-green-place_final.mp4 48.375s, title burned via drawtext.
