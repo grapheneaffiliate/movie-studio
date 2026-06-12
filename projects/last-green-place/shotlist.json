@@ -33,9 +33,11 @@
         "type": "fadeblack",
         "duration_s": 0.5
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
       "review_notes": [
         {
           "take": "s01_frame_t01.png",
@@ -50,6 +52,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dust plumes crawl, heat shimmer, camera locked - per SPEC"
         }
       ]
     },
@@ -70,9 +85,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
       "review_notes": [
         {
           "take": "s02_frame_t01.png",
@@ -87,6 +104,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "violent grille advance through dust, crash energy excellent"
         }
       ]
     },
@@ -107,9 +137,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
       "review_notes": [
         {
           "take": "s03_frame_t01.png",
@@ -124,6 +156,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "wall rigid, dust drift; tilt gentler than SPEC but reads well at 4s"
         }
       ]
     },
@@ -144,9 +189,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4"
+      ],
+      "approved_take": "s04_t01.mp4",
       "review_notes": [
         {
           "take": "s04_frame_t01.png",
@@ -161,6 +208,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "clean slow push on leaf sign, sign/bolts static"
         }
       ]
     },
@@ -181,9 +241,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
       "review_notes": [
         {
           "take": "s05_frame_t01.png",
@@ -198,6 +260,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dolly down brick path confirmed, leaves stir, wall integrated bg"
         }
       ]
     },
@@ -220,9 +295,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4"
+      ],
+      "approved_take": "s06_t01.mp4",
       "review_notes": [
         {
           "take": "s06_frame_t01.png",
@@ -237,6 +314,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "water arc onto vines, arm-only motion, slow orbit; identity anchors hold"
         }
       ]
     },
@@ -296,9 +386,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
       "review_notes": [
         {
           "take": "s08_frame_t01.png",
@@ -313,6 +405,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "silhouettes hold position, dust drift, idle menace"
         }
       ]
     },
@@ -336,9 +441,11 @@
         "type": "dissolve",
         "duration_s": 0.5
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4"
+      ],
+      "approved_take": "s09_t01.mp4",
       "review_notes": [
         {
           "take": "s09_frame_t01.png",
@@ -353,6 +460,19 @@
           },
           "verdict": "approve",
           "why": "tighter than SPEC (no garden fg, wall directly behind) but dramatically stronger; approved as variation"
+        },
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "raise-and-sip clean, orange sky churning above wall; identity holds"
         }
       ]
     },
@@ -375,9 +495,11 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4"
+      ],
+      "approved_take": "s10_t01.mp4",
       "review_notes": [
         {
           "take": "s10_frame_t01.png",
@@ -392,6 +514,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "smile -> goggles pulled down over glasses, ends seated; the button beat exactly"
         }
       ]
     },
@@ -413,9 +548,11 @@
         "type": "fadeblack",
         "duration_s": 0.8
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
       "review_notes": [
         {
           "take": "s11_frame_t01.png",
@@ -430,6 +567,19 @@
           },
           "verdict": "approve",
           "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dusk plate, gentle drift, ready for drawtext title"
         }
       ]
     }
