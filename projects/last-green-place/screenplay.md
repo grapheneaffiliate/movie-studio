@@ -253,3 +253,4 @@ sound-hook: engine roar Dopplers away and resolves into birdsong; one final drum
 - POST: found+fixed assemble.py sub-frame xfade bug (cuts collapsed the chain to 5s).
 - SOUND: 7 stems verified; d01 1.92s fits its 4s shot; music ducked -7dB under the line.
 - DELIVERED: final/last-green-place_final.mp4 48.375s, title burned via drawtext.
+- v3 RECAST: lead is ERIN (user's sister). Two-reference element fixed the likeness gap from v2's single small photo. Voice Claire (en). 4 shots + line redone; rest untouched.

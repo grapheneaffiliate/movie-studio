@@ -9,7 +9,7 @@
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 150,
-    "spent_credits": 147.39,
+    "spent_credits": 183.89,
     "ledger": [
       {
         "what": "11 start frames nano_banana (1.5cr ea)",
@@ -31,15 +31,20 @@
       {
         "what": "recast pass: 4 frames + 4 videos + 1 TTS line",
         "credits": 36.5
+      },
+      {
+        "what": "v3 Erin recast: 4 frames + 4 videos + 1 TTS",
+        "credits": 36.5
       }
     ],
     "opening_balance": 2053.04,
-    "closing_balance": 1905.65
+    "closing_balance": 1869.15
   },
   "continuity_assets": {
     "elements": {
       "the-keeper": "28087740-12dd-485c-89ff-9b87ab8b68c4",
-      "the-keeper-2": "03726389-7566-43f5-81f4-4280563608c3"
+      "the-keeper-2": "03726389-7566-43f5-81f4-4280563608c3",
+      "erin-keeper": "c55d4b57-1b2b-4354-b109-607dbac838d4"
     },
     "souls": {}
   },
@@ -81,7 +86,16 @@
     "s07_frame_t02": "19fc817f-313d-45bc-bd69-afeba7bb6773",
     "s09_frame_t02": "3e56bb68-5945-4dfa-b48e-aa6c2b2f4f49",
     "s10_frame_t02": "4412df65-4bbd-42c6-a978-29613006d062",
-    "d01_keeper_v2": "31755243-f1e8-4c1e-a154-94f93090a265"
+    "d01_keeper_v2": "31755243-f1e8-4c1e-a154-94f93090a265",
+    "s06_video_t03": "00ca6b31-49a2-416d-a069-30332626a632",
+    "s07_video_t03": "bba47f11-cbaf-4f4a-9d98-5f8fd1492ad9",
+    "s09_video_t03": "ac38e364-82d7-4fa9-9fa8-f1f2422c2bed",
+    "s10_video_t03": "cb52d156-a17c-4853-abe9-cb103ecccc11",
+    "s06_frame_t03": "d9b84fbb-cc15-4d53-9ab3-295ec0355965",
+    "s07_frame_t03": "f5687d9b-a17d-4719-8900-e4da4f7e388a",
+    "s09_frame_t03": "e5b09a6a-9ab8-4ced-8968-3939a34df2c9",
+    "s10_frame_t03": "870c6532-ef72-4b81-be43-0401b3761543",
+    "d01_keeper_v3": "c3005ff6-6f98-40a5-ba0e-8fc1c2b1d84e"
   },
   "notes": [
     "premise A 'The Last Green Place' chosen from 3-premise brainstorm (first-idea rule); user approved with 'proceed'",
@@ -103,7 +117,10 @@
     "bible v2: short dark-brown side-swept hair with long fringe, fair skin, no glasses; wardrobe unchanged (heather-grey tee, khaki trousers)",
     "voice recast Graham (en) -> Alex (en) to match younger lead; old stem kept as alternate take",
     "recast frames approved t02 on sight: wardrobe + face consistent; s09 t02 regains garden foreground (improves on t01 framing)",
-    "v2 delivered: recast lead in s06/s07/s09/s10, voice Alex (en), all t02 approved take 1; final re-rendered, QC'd, published to CDN"
+    "v2 delivered: recast lead in s06/s07/s09/s10, voice Alex (en), all t02 approved take 1; final re-rendered, QC'd, published to CDN",
+    "v3 RECAST: lead is ERIN (user's sister), better photo supplied; element erin-keeper built from TWO references (new crop + previous photo) for stronger likeness",
+    "v3 frames approved t03 on sight: s10 close-up notably faithful; voice recast Alex -> Claire (en) female read, alternates kept",
+    "v3 delivered: Erin (two-reference element) in s06/s07/s09/s10, voice Claire (en); final re-rendered, QC'd, published"
   ],
   "aspect_ratio": "16:9"
 }
