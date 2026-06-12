@@ -1,0 +1,20 @@
+{
+  "project": "smoketest",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 14,
+  "characters": [],
+  "shots": [
+    {"id": "s01", "scene": 1, "duration_s": 5, "transition_in": {"type": "cut"},
+     "status": "approved", "takes": ["s01_t01.mp4"], "approved_take": "s01_t01.mp4", "review_notes": []},
+    {"id": "s02", "scene": 1, "duration_s": 5, "transition_in": {"type": "fade", "duration_s": 0.8},
+     "status": "approved", "takes": ["s02_t01.mp4"], "approved_take": "s02_t01.mp4", "review_notes": []},
+    {"id": "s03", "scene": 2, "duration_s": 5, "transition_in": {"type": "fadeblack", "duration_s": 0.6},
+     "status": "approved", "takes": ["s03_t01.mp4"], "approved_take": "s03_t01.mp4", "review_notes": []}
+  ],
+  "audio": {
+    "music": [{"id": "m01", "duration_s": 14, "start_at_s": 0, "gain_db": -6}],
+    "dialogue": [{"id": "d01", "character": "TEST", "text": "test line", "start_at_s": 6, "gain_db": 0}],
+    "sfx": [{"id": "x01", "duration_s": 4, "start_at_s": 1, "gain_db": -12}]
+  }
+}
