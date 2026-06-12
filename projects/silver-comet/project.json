@@ -1,0 +1,29 @@
+{
+  "slug": "silver-comet",
+  "title": "Silver Comet",
+  "created": "2026-06-12",
+  "user_prompt": "50-second superhero video like Superman starring the man in the photo: mild-mannered to hero reveal, flight, a big save, original suit. Full script.",
+  "deliverable": "short_film",
+  "stage": "production",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 135,
+    "spent_credits": 0,
+    "ledger": [],
+    "opening_balance": 1630.44
+  },
+  "continuity_assets": {
+    "elements": {
+      "keeper-hero": "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {},
+  "notes": [
+    "original hero design - no DC trade dress (slate-blue + silver comet emblem); Superman GRAMMAR only",
+    "element keeper-hero: two refs (new frontal + original photo)",
+    "single hi-vis worker = stakes w/o crowds",
+    "voice Graham (en) - same baritone as grey-protocol, same universe"
+  ]
+}

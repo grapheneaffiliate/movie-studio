@@ -1,0 +1,372 @@
+{
+  "project": "silver-comet",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 50,
+  "characters": [
+    {
+      "id": "COMET",
+      "name": "The Comet (user's likeness)",
+      "continuity_method": "element",
+      "element_id": "a895b77d-5fdb-4d8a-8964-e0cf6e88d773",
+      "wardrobe": "civilian: heather-grey crew-neck t-shirt, silver round glasses, tousled silver-blond hair, light stubble | hero: slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, silver belt, no glasses, tousled silver-blond hair",
+      "voice": "Graham (en) \u2014 warm baritone, one V.O. line"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "duration_s": 4,
+      "shot_type": "sky streak wide",
+      "camera": "24mm aerial locked",
+      "action": "A silver streak threads the towers.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, golden morning skyline of glass towers seen from between buildings, one thin silver streak with a white contrail threading between two skyscrapers, a few birds below it, sun low to the right, anamorphic flare off the glass, zero people",
+      "video_prompt": "the silver streak crosses left to right leaving a clean contrail, birds drift slowly, the towers stay perfectly still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.4
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s02",
+      "scene": 2,
+      "duration_s": 4,
+      "shot_type": "the listener",
+      "camera": "50mm chest-up locked",
+      "action": "Coffee. Then the head SNAPS toward something.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, 50mm chest-up of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, heather-grey crew-neck t-shirt, silver round glasses, tousled silver-blond hair, light stubble, holding a white paper coffee cup beside a steel coffee cart, steam rising and catching golden side light, morning street bokeh behind, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> lifts the white paper coffee cup, then his head snaps toward the off-frame distance and his eyes sharpen, steam drifts, everything else stays still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s03",
+      "scene": 3,
+      "duration_s": 4,
+      "shot_type": "glasses off",
+      "camera": "85mm insert locked",
+      "action": "The glasses fold with terrible calm.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, 85mm close-up of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, heather-grey crew-neck t-shirt, silver round glasses, tousled silver-blond hair, light stubble, removing the silver round glasses with one hand, the white paper coffee cup set on the cart edge beside him, golden glint on the folding glasses, street bokeh, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> removes the silver round glasses, folds them with one decisive click and sets them down beside the cup, his eyes narrow with calm resolve, nothing else moves",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s04",
+      "scene": 4,
+      "duration_s": 4,
+      "shot_type": "the reveal",
+      "camera": "35mm slight low angle",
+      "action": "Shirt pulled open: the silver comet emblem.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, brick alley with fire-escape shadows, 35mm slight low angle of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man with tousled silver-blond hair and light stubble, gripping the collar of his heather-grey crew-neck t-shirt and pulling it open at the chest to reveal a slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) beneath, one shaft of golden light across his chest, blue shadow around, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> pulls the grey shirt open in one strong motion, the silver comet emblem catches the light shaft, his chin lifts, background stays still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s05",
+      "scene": 5,
+      "duration_s": 4,
+      "shot_type": "launch",
+      "camera": "35mm low angle locked",
+      "action": "Crouch \u2014 and ROCKET up. Dust ring.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, empty morning street, 35mm low angle of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, silver belt, no glasses, tousled silver-blond hair, in a low crouch about to launch, cracked asphalt under him, loose papers around, long morning shadows, golden rim light, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> rockets straight up out of frame from the crouch, a ring of dust blasts outward across the asphalt, papers whirl upward, the cape snaps, the street itself stays static",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s06",
+      "scene": 6,
+      "duration_s": 4,
+      "shot_type": "above the clouds",
+      "camera": "35mm tracking alongside",
+      "action": "Fists forward. Sun on his face.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, above a sunlit cloud deck, 35mm alongside <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, silver belt, no glasses, tousled silver-blond hair, flying horizontally fists-forward, the flowing slate-blue cape with silver lining rippling hard, golden sun ahead lighting his face, faint smile, clouds streaming below, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> flies fists-forward at speed, the cape ripples hard, clouds stream past below, his face stays steady with a faint smile, camera tracks alongside with slight speed shake",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s07",
+      "scene": 7,
+      "duration_s": 4,
+      "shot_type": "the peril",
+      "camera": "24mm from above, vertigo",
+      "action": "Cable SNAPS. The rig lurches.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, high on a glass skyscraper face seen from above at a vertiginous angle, a window-washing platform on two steel cables with ONE cable snapped and whipping free, the platform tilted hard, one distant worker in an orange hi-vis vest clinging to the rail, far away, face not visible, morning sun glancing hard off the glass",
+      "video_prompt": "the snapped steel cable whips once through the air, the platform lurches and tilts further, the distant worker grips the rail, the tower stays rigid, camera locked",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s08",
+      "scene": 8,
+      "duration_s": 4,
+      "shot_type": "dive and catch",
+      "camera": "35mm falling with them",
+      "action": "He overtakes the fall. It stops.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, vertical view down a glass skyscraper face, <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, silver belt, no glasses, tousled silver-blond hair, diving head-first alongside the glass with arms outstretched toward a falling window-washing platform just below him, one distant worker shape in an orange hi-vis vest aboard, sun strobing in the glass panels, motion energy",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> dives head-first down the glass face, overtakes the falling platform and catches it underhand from below, the fall stops dead, the glass tower streaks past then freezes, camera falls with them",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s09",
+      "scene": 9,
+      "duration_s": 4,
+      "shot_type": "the set-down",
+      "camera": "35mm low hero angle",
+      "action": "Feather-soft landing. Cape settles.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, street level 35mm low hero angle of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, silver belt, no glasses, tousled silver-blond hair, setting a window-washing platform gently onto the street with both hands, one distant worker in an orange hi-vis vest stepping off at the far end, drifting papers, morning steam from a grate, golden backlight rim-lighting the cape silver, one man and one distant worker only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> lowers the platform the last meter and sets it down feather-soft, straightens to full height as the cape settles slowly around him, papers drift down, all else still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s10",
+      "scene": 10,
+      "duration_s": 4,
+      "shot_type": "the smile + liftoff",
+      "camera": "50mm close locked",
+      "action": "Warm smile. Straight up and gone.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, 50mm close-up of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, silver belt, no glasses, tousled silver-blond hair, the silver comet emblem bright on his chest, looking up at the sky with a warm half-smile, drifting papers and golden haze around, street bokeh, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> looks up, breaks into a warm half-smile, bends his knees slightly and lifts off straight up out of frame, the cape trailing last, background still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s11",
+      "scene": 11,
+      "duration_s": 4,
+      "shot_type": "the streak",
+      "camera": "24mm wide locked",
+      "action": "Sonic ring over the skyline.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, wide dusk-beginning sky over the city skyline, a flying figure reduced to a silver streak crossing the frame with a blooming translucent sonic ring where it passes, a contrail looping upward toward the low golden sun, rose-gold gradient sky, zero people resolved",
+      "video_prompt": "the silver streak crosses the frame with a blooming sonic ring, the contrail loops once and climbs, the city stays still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    },
+    {
+      "id": "s12",
+      "scene": 12,
+      "duration_s": 5,
+      "shot_type": "title plate",
+      "camera": "24mm wide, slow push",
+      "action": "Dusk skyline; the contrail fades.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, golden-hour superhero blockbuster cinematography, warm amber sunlight with deep blue sky, crisp atmospheric haze, anamorphic lens flare, large-format clarity, gentle film grain, city skyline at rose-gold dusk, one thin silver contrail still hanging in the sky, first window lights coming on in the towers, calm and warm, zero people",
+      "video_prompt": "the contrail slowly feathers and fades, window lights twinkle on one by one, barely perceptible slow push, all else still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.8
+      },
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    }
+  ],
+  "audio": {
+    "music": [
+      {
+        "id": "m01_wonder",
+        "prompt": "warm wondrous morning orchestral, gentle strings and glockenspiel, hopeful, a rising unresolved question at the end",
+        "duration_s": 16,
+        "start_at_s": 0,
+        "gain_db": -7
+      },
+      {
+        "id": "m02_soar",
+        "prompt": "soaring heroic orchestral superhero theme, bold brass fanfare over driving strings, an urgent string passage in the middle, then warm resolution and one grand final chord",
+        "duration_s": 33,
+        "start_at_s": 16,
+        "gain_db": -6
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01_comet",
+        "character": "COMET",
+        "text": "Just a neighbor, passing through.",
+        "voice": "Graham (en)",
+        "start_at_s": 45.5,
+        "gain_db": 0
+      }
+    ],
+    "sfx": [
+      {
+        "id": "x01_city",
+        "prompt": "calm morning city ambience, distant traffic, gulls, espresso machine hiss",
+        "duration_s": 16,
+        "start_at_s": 0,
+        "gain_db": -13
+      },
+      {
+        "id": "x02_launch",
+        "prompt": "deep bass whump, rocket launch whoosh, fabric cape snap, debris scatter",
+        "duration_s": 4,
+        "start_at_s": 16.5,
+        "gain_db": -4
+      },
+      {
+        "id": "x03_flight_wind",
+        "prompt": "high altitude wind rush, smooth powerful airflow",
+        "duration_s": 4,
+        "start_at_s": 20,
+        "gain_db": -9
+      },
+      {
+        "id": "x04_cable",
+        "prompt": "steel cable snapping under tension, sharp twang, metal platform screech and rattle",
+        "duration_s": 4,
+        "start_at_s": 24.3,
+        "gain_db": -4
+      },
+      {
+        "id": "x05_dive_catch",
+        "prompt": "diving wind shriek building then cutting to near silence, then one soft heavy metal touch-down",
+        "duration_s": 5,
+        "start_at_s": 28,
+        "gain_db": -5
+      },
+      {
+        "id": "x06_boom",
+        "prompt": "rolling sonic boom passing overhead and fading into distance",
+        "duration_s": 4,
+        "start_at_s": 40.5,
+        "gain_db": -6
+      }
+    ]
+  }
+}
