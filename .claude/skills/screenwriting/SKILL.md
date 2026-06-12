@@ -9,6 +9,10 @@ You own everything that happens before a single frame is designed. Output is one
 file: `projects/<slug>/screenplay.md`. Advance `project.json` stage to
 `"pre-production"` when done and log every creative default you took in `notes[]`.
 
+Run the **creative-writing** skill alongside this one: it pressure-tests the
+concept for novelty before the treatment locks, and adds a `[SPEC sNN]` block
+under each action paragraph so every clip-level detail is captured on the page.
+
 ## Output structure (screenplay.md, in this order)
 
 1. **Logline** — one sentence: protagonist + want + obstacle + tone.
