@@ -243,3 +243,9 @@ sound-hook: fire crackle alone, one distant carriage bell (x01 tail)
 - Dome intact + raven gone = impossible-crime trope, calling card has a WAX SEAL not text (AI text law).
 - Patter written as breathless run-ons so TTS sprints; comedy carried by cut rhythm even if TTS under-speeds.
 - Voice cast: Rupert (en) = Pembroke, Callum (en) = Hale. Logged.
+
+### Director's log (production)
+- 12/12 frames + 12/12 videos approved take 1. Zero retakes. Both elements held in every two-shot.
+- Rupert's patter ran long (17.4s/11.2s) -> tempo-compressed 1.22x/1.20x; speed IS the brief; originals kept; cues re-timed.
+- s11 gavel strike soft on picture; the audio CRACK carries the beat (logged fidelity 3).
+- DELIVERED: final/going-going-gone_final.mp4, 47.8s, title burned in post.
