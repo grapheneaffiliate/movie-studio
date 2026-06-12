@@ -9,7 +9,7 @@
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 145,
-    "spent_credits": 120.07,
+    "spent_credits": 127.57,
     "ledger": [
       {
         "what": "12 start frames",
@@ -26,6 +26,10 @@
       {
         "what": "reconciliation vs opening balance (actual billed)",
         "credits": 120.07
+      },
+      {
+        "what": "fix pass: d03 TTS regen + s11 gavel retake",
+        "credits": 7.5
       }
     ],
     "opening_balance": 1758.01,
@@ -82,6 +86,8 @@
     "est 145cr (12 img + 49s video + 7 audio + margin), under gate; opening balance 1758.01",
     "d01/d03 tempo-compressed 1.22x/1.20x (originals kept as .bak): the fast-talk IS the brief; downstream cues shifted (d02 26.0, d04 41.3, x05 42.6, d05 43.3)",
     "delivered: 47.8s final, both streams, QC cutsheet logged; 12/12 shots take 1, zero retakes",
-    "actual 120.07cr vs 145 estimate"
+    "actual 120.07cr vs 145 estimate",
+    "FIX PASS (user: 'came out weird'): atempo voices reverted to natural; d03 regenerated SHORTER instead of faster; d05 moved off the runtime tail (was clipping its last word); x03 gasp now reacts AFTER d02's line; s11 gavel retake t02 with explicit hard strike",
+    "v2 delivered after fix pass: natural-speed voices, shorter d03, gasp reacts to the line, hard gavel strike t02, no tail clipping"
   ]
 }

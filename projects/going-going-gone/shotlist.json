@@ -434,9 +434,10 @@
       },
       "status": "approved",
       "takes": [
-        "s11_t01.mp4"
+        "s11_t01.mp4",
+        "s11_t02.mp4"
       ],
-      "approved_take": "s11_t01.mp4",
+      "approved_take": "s11_t02.mp4",
       "review_notes": [
         {
           "take": "s11_t01.mp4",
@@ -450,6 +451,19 @@
           },
           "verdict": "approve",
           "why": "gavel hover-fall soft; audio CRACK carries the beat (fidelity 3, accepted)"
+        },
+        {
+          "take": "s11_t02.mp4",
+          "kind": "video (retake)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "decisive strike with motion blur; replaces floaty t01"
         }
       ]
     },
@@ -516,7 +530,7 @@
         "character": "PEMBROKE",
         "text": "Lot thirteen, the Jeweled Raven of Marylebone! Fifty pounds \u2014 fifty, do I hear sixty, sixty from the colonel, seventy, eighty, don't blink madam you'll cost yourself a fortune, ninety at the back, one hundred from the gentleman with the silver cane \u2014",
         "voice": "Rupert (en)",
-        "start_at_s": 8.6,
+        "start_at_s": 8.8,
         "gain_db": 0
       },
       {
@@ -524,13 +538,13 @@
         "character": "HALE",
         "text": "Sir. The raven is gone.",
         "voice": "Callum (en)",
-        "start_at_s": 26.0,
+        "start_at_s": 26.6,
         "gain_db": 0
       },
       {
         "id": "d03_pembroke",
         "character": "PEMBROKE",
-        "text": "A genuine vanishing, one of one, the empty plinth, provenance: stolen this very instant before forty witnesses \u2014 do I hear two hundred?!",
+        "text": "A genuine vanishing! One of one! Do I hear two hundred for the empty plinth?",
         "voice": "Rupert (en)",
         "start_at_s": 31.6,
         "gain_db": 0
@@ -540,7 +554,7 @@
         "character": "HALE",
         "text": "... Two hundred.",
         "voice": "Callum (en)",
-        "start_at_s": 41.3,
+        "start_at_s": 40.3,
         "gain_db": 0
       },
       {
@@ -548,7 +562,7 @@
         "character": "PEMBROKE",
         "text": "Sold! To my own clerk. Heaven help us both.",
         "voice": "Rupert (en)",
-        "start_at_s": 43.3,
+        "start_at_s": 42.5,
         "gain_db": 0
       }
     ],
@@ -571,7 +585,7 @@
         "id": "x03_gasp",
         "prompt": "collective refined audience gasp followed by worried murmuring swell, period drawing room",
         "duration_s": 4,
-        "start_at_s": 28.1,
+        "start_at_s": 29.4,
         "gain_db": -6
       },
       {
@@ -585,7 +599,7 @@
         "id": "x05_gavel",
         "prompt": "single crisp wooden gavel crack on a hardwood block, close, dry, authoritative",
         "duration_s": 2,
-        "start_at_s": 42.6,
+        "start_at_s": 41.8,
         "gain_db": -3
       }
     ]
