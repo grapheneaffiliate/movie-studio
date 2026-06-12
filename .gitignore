@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Project state (project.json, shotlist.json, screenplay.md) is tracked so any
+# session can resume; bulky media is not — paid results are recoverable via the
+# job ids in project.json higgsfield_jobs.
+projects/*/clips/
+projects/*/audio/
+projects/*/refs/
+projects/*/dailies/
+projects/*/final/
+
+# …except the smoketest worked example: its tiny synthetic sources are tracked
+# so the pipeline is runnable straight from a clone. Rendered outputs stay local.
+!projects/smoketest/clips/
+!projects/smoketest/audio/
+projects/smoketest/audio/mixdown.wav
+!projects/smoketest/refs/
+!projects/smoketest/dailies/
+projects/smoketest/dailies/*
+!projects/smoketest/dailies/.gitkeep
+!projects/smoketest/final/
+projects/smoketest/final/*
+!projects/smoketest/final/.gitkeep

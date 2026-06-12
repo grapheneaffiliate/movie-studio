@@ -1,0 +1,50 @@
+{
+  "$comment": "Shotlist schema — the edit decision list the agent writes in PRE-PRO and executes in PRODUCTION/POST. One entry per shot.",
+  "project": "example-slug",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 90,
+  "characters": [
+    {
+      "id": "HERO",
+      "name": "Mara",
+      "continuity_method": "element",
+      "element_id": "<<<filled-after-element-creation>>>",
+      "wardrobe": "weathered olive flight jacket, brass goggles",
+      "notes": "never changes wardrobe mid-act"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "duration_s": 6,
+      "shot_type": "wide establishing",
+      "camera": "slow push-in, 35mm, golden hour",
+      "action": "Desert salt flat, a lone monowing aircraft cooling, heat shimmer",
+      "dialogue": null,
+      "start_frame_prompt": "Cinematic wide shot, vast white salt flat at golden hour...",
+      "video_prompt": "Slow dolly push-in across salt flat toward parked monowing aircraft, heat shimmer rising, golden hour, cinematic, 35mm",
+      "video_model": "kling3_0",
+      "image_model": "soul_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {"type": "fade", "duration_s": 1.0},
+      "status": "pending",
+      "takes": [],
+      "approved_take": null,
+      "review_notes": []
+    }
+  ],
+  "audio": {
+    "music": [
+      {"id": "m01", "prompt": "Sparse desert western score, baritone guitar, slow build", "duration_s": 90, "start_at_s": 0, "gain_db": -6}
+    ],
+    "dialogue": [
+      {"id": "d01", "character": "HERO", "text": "We fly at dawn.", "voice": "ashley", "start_at_s": 12, "gain_db": 0}
+    ],
+    "sfx": [
+      {"id": "x01", "prompt": "wind over open desert, distant metal ticking as engine cools", "duration_s": 10, "start_at_s": 0, "gain_db": -12}
+    ]
+  }
+}

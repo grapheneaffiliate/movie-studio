@@ -1,0 +1,21 @@
+{
+  "slug": "smoketest",
+  "title": "Smoke Test (worked example)",
+  "created": "2026-06-12",
+  "user_prompt": "synthetic pipeline verification",
+  "deliverable": "short_film",
+  "stage": "delivered",
+  "stages_done": [],
+  "target_runtime_s": 14,
+  "budget": {
+    "estimate_credits": 0,
+    "spent_credits": 0,
+    "ledger": []
+  },
+  "continuity_assets": {
+    "elements": {},
+    "souls": {}
+  },
+  "higgsfield_jobs": {},
+  "notes": []
+}
