@@ -1,0 +1,28 @@
+{
+  "slug": "powder-river",
+  "title": "Powder River",
+  "created": "2026-06-13",
+  "user_prompt": "50-second country western in the style of the movie Tombstone, starring the man in the photo as a gunslinger/lawman. Write the script, plan each clip.",
+  "deliverable": "short_film",
+  "stage": "production",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 135,
+    "spent_credits": 0,
+    "ledger": [],
+    "opening_balance": 1407.8
+  },
+  "continuity_assets": {
+    "elements": {
+      "cullen-marshal": "16868942-7daa-495f-b61b-2cecfa695bf6"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {},
+  "notes": [
+    "element cullen-marshal built from two proven upright refs (ac828509+07027936) of the same man - new photo rotation unreliable, fell back to known-good refs",
+    "Tombstone-style: gunslinger gets period look (Stetson, duster, handlebar mustache), NO modern glasses",
+    "duel staged non-graphic: outlaw faceless/silhouette, fall in backlit dust; voice Graham (en) gravelly"
+  ]
+}
