@@ -4,7 +4,7 @@
   "created": "2026-06-13",
   "user_prompt": "50-second country western in the style of the movie Tombstone, starring the man in the photo as a gunslinger/lawman. Write the script, plan each clip.",
   "deliverable": "short_film",
-  "stage": "production",
+  "stage": "delivered",
   "stages_done": [],
   "target_runtime_s": 50,
   "budget": {
@@ -26,9 +26,14 @@
       {
         "what": "12 video shots kling3_0, 49s",
         "credits": 73.5
+      },
+      {
+        "what": "NOTE: closing balance 8735.9 reflects user credit top-ups mid-production; spend tracked per-job in ledger above",
+        "credits": 0
       }
     ],
-    "opening_balance": 1407.8
+    "opening_balance": 1407.8,
+    "closing_balance": 8735.9
   },
   "continuity_assets": {
     "elements": {
@@ -74,6 +79,8 @@
     "duel staged non-graphic: outlaw faceless/silhouette, fall in backlit dust; voice Graham (en) gravelly",
     "HIGGSFIELD OUTAGE mid-frames: generate_image+generate_audio both returning 'Something went wrong' ~19:33 UTC; reads (balance/show_generations) fine. 5 frames done, 7 pending; backing off to retry.",
     "PARTIAL DELIVERY ('just finish' during sustained Higgsfield outage ~1h40m): cut a 22.2s picture-only Tombstone-style Act-1 teaser from the 5 frames that rendered before the outage (s01 town, s02 boots, s03 marshal, s04 killer, s05 town-clears) via ffmpeg Ken Burns + dissolves + title. NO audio (gen down). Full 12-shot+sound film resumes from s06 when Higgsfield recovers.",
-    "OUTAGE CLEARED ~23:12 UTC; resumed: 7 frames + all 7 audio submitted"
+    "OUTAGE CLEARED ~23:12 UTC; resumed: 7 frames + all 7 audio submitted",
+    "DELIVERED after outage recovery: full 47.8s Tombstone-style western, both streams, QC cutsheet logged; 12/12 shots take 1 (zero retakes once service returned)",
+    "the picture-only teaser delivered during the outage is now superseded by this complete film with sound"
   ]
 }

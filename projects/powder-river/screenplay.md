@@ -206,3 +206,9 @@ sound-hook: the whistled melody returns and fades; a final low guitar chord; win
 - Killer kept faceless/silhouette and the fall non-graphic (silhouette into dust) — menace and resolution without gore, and AI-safe.
 - Marshal gets period grooming (handlebar mustache, no glasses); likeness carried by the two-ref element + the eyes/jaw in s03/s06.
 - Voice: Graham (en), same actor-voice as his other films — a weathered older register fits the old marshal.
+
+### Director's log (production)
+- Survived a ~3.5-hour Higgsfield generation outage mid-shoot (5 frames done before it hit). Delivered a picture-only Act-1 teaser during the outage; resumed losslessly from the manifest when service returned.
+- On recovery: 7 remaining frames + 12 videos + 7 audio all generated cleanly, every shot approved take 1.
+- cullen-marshal element (two proven refs) held likeness across s03/s06/s09/s11. Killer kept faceless silhouette; fall non-graphic.
+- DELIVERED: final/powder-river_final.mp4, 47.8s, Morricone-style score, title burned in post.

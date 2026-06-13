@@ -32,10 +32,26 @@
         "type": "fadeblack",
         "duration_s": 0.4
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dusty street, tumbleweed, heat haze"
+        }
+      ]
     },
     {
       "id": "s02",
@@ -54,10 +70,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "boots off boardwalk, spurs, batwing"
+        }
+      ]
     },
     {
       "id": "s03",
@@ -78,10 +110,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "marshal stands, hand near holster, hard eyes"
+        }
+      ]
     },
     {
       "id": "s04",
@@ -100,10 +148,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4"
+      ],
+      "approved_take": "s04_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer motionless, coat stirs, face shadowed"
+        }
+      ]
     },
     {
       "id": "s05",
@@ -122,10 +186,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "shutter, horse, dog bolts - town empties"
+        }
+      ]
     },
     {
       "id": "s06",
@@ -146,10 +226,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4"
+      ],
+      "approved_take": "s06_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "steely squint, sweat, hat-brim shadow - intense"
+        }
+      ]
     },
     {
       "id": "s07",
@@ -168,10 +264,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4"
+      ],
+      "approved_take": "s07_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "fingers flex over the Colt, leather creak"
+        }
+      ]
     },
     {
       "id": "s08",
@@ -190,10 +302,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer's coat sweeps, hand twitches - the tell"
+        }
+      ]
     },
     {
       "id": "s09",
@@ -214,10 +342,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4"
+      ],
+      "approved_take": "s09_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "the draw - muzzle flash + powder smoke, likeness holds"
+        }
+      ]
     },
     {
       "id": "s10",
@@ -236,10 +380,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4"
+      ],
+      "approved_take": "s10_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer silhouette folds and drops, hat tumbles - non-graphic"
+        }
+      ]
     },
     {
       "id": "s11",
@@ -260,10 +420,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "holster twirl, hat-brim tip, turns away"
+        }
+      ]
     },
     {
       "id": "s12",
@@ -283,10 +459,26 @@
         "type": "fadeblack",
         "duration_s": 0.8
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s12_t01.mp4"
+      ],
+      "approved_take": "s12_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s12_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dust settles, tumbleweed past lone hat - the button"
+        }
+      ]
     }
   ],
   "audio": {
