@@ -1,0 +1,28 @@
+{
+  "slug": "comet-twister",
+  "title": "Comet Twister",
+  "created": "2026-06-13",
+  "user_prompt": "The Silver Comet (same hero, user's likeness) flies into a tornado to save a small farm town. 50 seconds, full superhero spectacle.",
+  "deliverable": "short_film",
+  "stage": "production",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 135,
+    "spent_credits": 0,
+    "ledger": [],
+    "opening_balance": 1516.62
+  },
+  "continuity_assets": {
+    "elements": {
+      "keeper-hero": "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {},
+  "notes": [
+    "SEQUEL: reuses keeper-hero element + established slate-blue suit/silver comet emblem from silver-comet",
+    "classic Superman counter-spin save: hero flies against the funnel rotation to unwind it",
+    "farm town stakes w/o crowds: one farmhouse, distant figures only; voice Graham (en)"
+  ]
+}
