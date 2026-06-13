@@ -4,7 +4,7 @@
   "created": "2026-06-13",
   "user_prompt": "50-second country western in the style of the movie Tombstone, starring the man in the photo as a gunslinger/lawman. Write the script, plan each clip.",
   "deliverable": "short_film",
-  "stage": "production",
+  "stage": "partial-delivered",
   "stages_done": [],
   "target_runtime_s": 50,
   "budget": {
@@ -35,6 +35,7 @@
     "element cullen-marshal built from two proven upright refs (ac828509+07027936) of the same man - new photo rotation unreliable, fell back to known-good refs",
     "Tombstone-style: gunslinger gets period look (Stetson, duster, handlebar mustache), NO modern glasses",
     "duel staged non-graphic: outlaw faceless/silhouette, fall in backlit dust; voice Graham (en) gravelly",
-    "HIGGSFIELD OUTAGE mid-frames: generate_image+generate_audio both returning 'Something went wrong' ~19:33 UTC; reads (balance/show_generations) fine. 5 frames done, 7 pending; backing off to retry."
+    "HIGGSFIELD OUTAGE mid-frames: generate_image+generate_audio both returning 'Something went wrong' ~19:33 UTC; reads (balance/show_generations) fine. 5 frames done, 7 pending; backing off to retry.",
+    "PARTIAL DELIVERY ('just finish' during sustained Higgsfield outage ~1h40m): cut a 22.2s picture-only Tombstone-style Act-1 teaser from the 5 frames that rendered before the outage (s01 town, s02 boots, s03 marshal, s04 killer, s05 town-clears) via ffmpeg Ken Burns + dissolves + title. NO audio (gen down). Full 12-shot+sound film resumes from s06 when Higgsfield recovers."
   ]
 }
