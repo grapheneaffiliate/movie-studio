@@ -32,10 +32,26 @@
         "type": "fadeblack",
         "duration_s": 0.4
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "tornado churns and advances over wheat, dust curtain"
+        }
+      ]
     },
     {
       "id": "s02",
@@ -54,10 +70,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "swing whips, door tears, funnel grows behind"
+        }
+      ]
     },
     {
       "id": "s03",
@@ -76,10 +108,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "red kite torn toward funnel"
+        }
+      ]
     },
     {
       "id": "s04",
@@ -98,10 +146,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4"
+      ],
+      "approved_take": "s04_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "silver streak banks toward the storm"
+        }
+      ]
     },
     {
       "id": "s05",
@@ -122,10 +186,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "hero dives toward funnel, cape streaming"
+        }
+      ]
     },
     {
       "id": "s06",
@@ -146,10 +226,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4"
+      ],
+      "approved_take": "s06_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "debris orbits him at the wall, wheelbarrow visible"
+        }
+      ]
     },
     {
       "id": "s07",
@@ -170,10 +266,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4"
+      ],
+      "approved_take": "s07_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "counter-spin inside the throat - THE money shot, vortex slows around him"
+        }
+      ]
     },
     {
       "id": "s08",
@@ -194,10 +306,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "strain close-up, jaw set then eases, emblem+likeness strong"
+        }
+      ]
     },
     {
       "id": "s09",
@@ -216,10 +344,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4"
+      ],
+      "approved_take": "s09_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "funnel unravels, sun shaft breaks through"
+        }
+      ]
     },
     {
       "id": "s10",
@@ -240,10 +384,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4"
+      ],
+      "approved_take": "s10_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "sets down, offers the red kite toward the farmhouse"
+        }
+      ]
     },
     {
       "id": "s11",
@@ -264,10 +424,26 @@
       "transition_in": {
         "type": "cut"
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "looks to clear sky, nod, lifts off cape-last over calm field"
+        }
+      ]
     },
     {
       "id": "s12",
@@ -287,10 +463,26 @@
         "type": "fadeblack",
         "duration_s": 0.8
       },
-      "status": "pending",
-      "takes": [],
-      "approved_take": null,
-      "review_notes": []
+      "status": "approved",
+      "takes": [
+        "s12_t01.mp4"
+      ],
+      "approved_take": "s12_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s12_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "calm field, contrail loops, golden resolution"
+        }
+      ]
     }
   ],
   "audio": {

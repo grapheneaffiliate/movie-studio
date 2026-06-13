@@ -204,3 +204,9 @@ sound-hook: final warm chord; V.O. tail; one meadowlark call (x04)
 - Counter-spin = canonical Superman tornado solution; visually legible and AI-safe.
 - Storm stakes carried by house/kite/empty porch — no crowds, one tiny distant figure only.
 - STORM-LOOK → CLEAR-LOOK grade flip at s11 is the emotional turn (mirrors the orange→green flip from the wasteland film).
+
+### Director's log (production)
+- 12/12 frames + 12/12 videos approved take 1. Zero retakes. keeper-hero element + suit reused from prior film; likeness/emblem held across every hero shot.
+- s10 preset interception declined+retried literally. s11/s12 URL-guess 403 on batch (rendering lag) - recovered via job_display.
+- STORM-LOOK -> CLEAR-LOOK grade flip at s11 lands the emotional turn.
+- DELIVERED: final/comet-twister_final.mp4, 47.8s, title burned in post.
