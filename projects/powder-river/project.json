@@ -9,8 +9,13 @@
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 135,
-    "spent_credits": 0,
-    "ledger": [],
+    "spent_credits": 7.5,
+    "ledger": [
+      {
+        "what": "5 of 12 start frames (s01-s05) before service outage",
+        "credits": 7.5
+      }
+    ],
     "opening_balance": 1407.8
   },
   "continuity_assets": {
@@ -19,10 +24,17 @@
     },
     "souls": {}
   },
-  "higgsfield_jobs": {},
+  "higgsfield_jobs": {
+    "s01_frame": "d9af5968-8e8b-4733-a95b-614bd5d60b31",
+    "s02_frame": "2a03ff7d-6109-425e-af8c-d6ea765317f1",
+    "s03_frame": "f9697dfb-22bd-4268-aae1-9e832e25be85",
+    "s04_frame": "894f76c3-b26d-498a-93a7-3a466c83eacd",
+    "s05_frame": "b09a1ac4-779d-46cc-9bd9-d42b1591f6f6"
+  },
   "notes": [
     "element cullen-marshal built from two proven upright refs (ac828509+07027936) of the same man - new photo rotation unreliable, fell back to known-good refs",
     "Tombstone-style: gunslinger gets period look (Stetson, duster, handlebar mustache), NO modern glasses",
-    "duel staged non-graphic: outlaw faceless/silhouette, fall in backlit dust; voice Graham (en) gravelly"
+    "duel staged non-graphic: outlaw faceless/silhouette, fall in backlit dust; voice Graham (en) gravelly",
+    "HIGGSFIELD OUTAGE mid-frames: generate_image+generate_audio both returning 'Something went wrong' ~19:33 UTC; reads (balance/show_generations) fine. 5 frames done, 7 pending; backing off to retry."
   ]
 }
