@@ -9,7 +9,7 @@
   "target_runtime_s": 50,
   "budget": {
     "estimate_credits": 135,
-    "spent_credits": 109.5,
+    "spent_credits": 118.5,
     "ledger": [
       {
         "what": "5 of 12 start frames (s01-s05) before service outage",
@@ -30,6 +30,10 @@
       {
         "what": "NOTE: closing balance 8735.9 reflects user credit top-ups mid-production; spend tracked per-job in ledger above",
         "credits": 0
+      },
+      {
+        "what": "s10 punchier retake: 1 frame + 1 video",
+        "credits": 9
       }
     ],
     "opening_balance": 1407.8,
@@ -81,6 +85,7 @@
     "PARTIAL DELIVERY ('just finish' during sustained Higgsfield outage ~1h40m): cut a 22.2s picture-only Tombstone-style Act-1 teaser from the 5 frames that rendered before the outage (s01 town, s02 boots, s03 marshal, s04 killer, s05 town-clears) via ffmpeg Ken Burns + dissolves + title. NO audio (gen down). Full 12-shot+sound film resumes from s06 when Higgsfield recovers.",
     "OUTAGE CLEARED ~23:12 UTC; resumed: 7 frames + all 7 audio submitted",
     "DELIVERED after outage recovery: full 47.8s Tombstone-style western, both streams, QC cutsheet logged; 12/12 shots take 1 (zero retakes once service returned)",
-    "the picture-only teaser delivered during the outage is now superseded by this complete film with sound"
+    "the picture-only teaser delivered during the outage is now superseded by this complete film with sound",
+    "v2: s10 fall retaken punchier per user \u2014 killer hurled backward, hat/pistol flying, slams into dust; frame re-graded to match sepia-gold. Re-rendered."
   ]
 }

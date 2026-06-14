@@ -382,9 +382,10 @@
       },
       "status": "approved",
       "takes": [
-        "s10_t01.mp4"
+        "s10_t01.mp4",
+        "s10_t02.mp4"
       ],
-      "approved_take": "s10_t01.mp4",
+      "approved_take": "s10_t02.mp4",
       "review_notes": [
         {
           "take": "s10_t01.mp4",
@@ -398,6 +399,19 @@
           },
           "verdict": "approve",
           "why": "killer silhouette folds and drops, hat tumbles - non-graphic"
+        },
+        {
+          "take": "s10_t02.mp4",
+          "kind": "video (punchier retake)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer hurled backward, hat+pistol flying, slams into dust - full violent impact arc; frame re-graded to sepia-gold to match"
         }
       ]
     },
