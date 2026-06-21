@@ -30,6 +30,17 @@ if ff:
             fails.append(f"ffmpeg {v} too old — xfade transitions need >= 4.3")
     except ValueError:
         warns.append(f"could not parse ffmpeg version '{v}' — proceeding")
+    # filters the finishing departments rely on (titles/subtitles/grade/master/qc)
+    filt = subprocess.run([ff, "-hide_banner", "-filters"], capture_output=True, text=True).stdout
+    need = {"drawtext": "title cards / lower-thirds / thumbnails (motion-graphics)",
+            "subtitles": "burned-in captions (motion-graphics)",
+            "loudnorm": "loudness mastering + QC (mastering-delivery)",
+            "blackdetect": "QC defect scan", "freezedetect": "QC frozen-clip scan",
+            "zoompan": "animatic Ken Burns (previsualization)"}
+    for fname, why in need.items():
+        if fname not in filt:
+            warns.append(f"ffmpeg lacks '{fname}' filter — {why} unavailable "
+                         f"(install a full ffmpeg build with libfreetype/libass)")
 
 if sys.version_info < (3, 9):
     fails.append(f"python {sys.version.split()[0]} too old — need >= 3.9")
@@ -51,9 +62,21 @@ for tpl in ("shotlist.json", "project.json"):
         except json.JSONDecodeError as e: fails.append(f"corrupt template {tpl}: {e}")
 
 for s in ("assemble.py", "review.py", "audio_mix.py", "download.py",
-          "new_project.py", "status.py"):
+          "new_project.py", "status.py",
+          # finishing & distribution departments
+          "titles.py", "subtitle.py", "grade.py", "master.py", "package.py",
+          "animatic.py", "qc.py", "thumbnail.py", "edl_export.py",
+          "estimate.py", "beatgrid.py"):
     if not (ROOT / "scripts" / s).exists():
         fails.append(f"missing script: scripts/{s}")
+
+# a usable font for drawtext-based tools (titles/thumbnail/animatic slates)
+import glob
+font_globs = ["/usr/share/fonts/**/*.ttf", "/Library/Fonts/*.ttf",
+              "/System/Library/Fonts/**/*.ttf", "C:/Windows/Fonts/*.ttf"]
+if not any(glob.glob(g, recursive=True) for g in font_globs):
+    warns.append("no .ttf font found — titles/thumbnails need one "
+                 "(install fonts-dejavu) or pass --font")
 
 print("PREFLIGHT —", ROOT)
 for w in warns: print("  WARN:", w)
