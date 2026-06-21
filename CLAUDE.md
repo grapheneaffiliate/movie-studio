@@ -31,19 +31,34 @@ PROMPT
   └─ 1. DEVELOPMENT   → screenplay.md, treatment, characters     (skill: screenwriting)
   └─ 2. PRE-PRO       → shotlist.json, character Elements/Souls,
                         style frames, project.json               (skill: shot-design)
-  └─ 3. PRODUCTION    → generate clips via Higgsfield MCP,
+  └─ 3. PRE-VIZ       → cost estimate + budget gate, animatic
+                        from start frames, beat grid (MV)        (skill: previsualization)
+  └─ 4. PRODUCTION    → generate clips via Higgsfield MCP,
                         download to clips/                       (skill: production)
-  └─ 4. DAILIES       → contact sheets, view every clip,
+  └─ 5. DAILIES       → contact sheets, view every clip,
                         score vs shotlist, regenerate failures   (skill: review-loop)
-  └─ 5. SOUND         → score, dialogue TTS, SFX → audio/        (skill: sound-department)
-  └─ 6. POST          → ffmpeg assembly, transitions, mix,
-                        color-safe encode → final/               (skill: post-production)
-  └─ 7. FINAL QC      → review final cut end-to-end; one fix
-                        pass allowed; then deliver
+  └─ 6. SOUND         → score, dialogue TTS, SFX → audio/        (skill: sound-department)
+  └─ 7. POST          → ffmpeg assembly, transitions, mix,
+                        encode → final/                          (skill: post-production)
+  └─ 8. GRAPHICS      → title cards, lower-thirds, credits,
+                        burned/exported subtitles                (skill: motion-graphics)
+  └─ 9. COLOR         → one committed cinematic grade            (skill: color-grading)
+  └─10. DELIVERY      → loudness master, technical QC, multi-
+                        platform export, EDL/FCPXML handoff      (skill: mastering-delivery)
+  └─11. FINAL QC      → review final cut end-to-end; qc.py must
+                        exit 0; one fix pass allowed; deliver
+  └─ +. MARKETING     → thumbnails, virality+hook, teasers,
+                        localization (only if reach is asked)    (skill: marketing-distribution)
 ```
 
+Stages 3, 8, 9, 10 are mostly **free ffmpeg/local work** — they raise the floor
+without burning credits. PRE-VIZ pays for itself: catch pacing/budget problems
+before video credits are spent. GRAPHICS/COLOR/DELIVERY are the finishing crafts
+that separate "a stack of clips" from "a delivered film."
+
 For **single images** or **single music tracks**, collapse to: brief → generate →
-review → deliver. The full pipeline is for video/film work.
+review → deliver. The full pipeline is for video/film work. A still can still pass
+through `thumbnail.py`/`grade.py`; a track through `master.py`.
 
 ## Project Layout
 
@@ -71,7 +86,17 @@ projects/<slug>/
 | Dialogue / narration | `inworld_text_to_speech` |
 | SFX / ambience | `mirelo_text_to_audio` |
 | Motion transfer / recast | `motion_control` |
-| Vertical/horizontal reframe | `reframe`; upscale via `upscale_video` |
+| Vertical/horizontal reframe | `reframe` (hero only); routine social crops via `scripts/package.py` (free) |
+| Hero 4K finish | `upscale_video` / `upscale_image` (final only) |
+| 3D asset from image | `generate_3d` (→ GLB) |
+| Localization / dub | `dubbing`, `voice_change` (+ free SRT via `scripts/subtitle.py`) |
+| Hook / engagement check | `virality_predictor` (on final + teasers) |
+| Cutout / expand frame | `remove_background`, `outpaint_image` |
+
+**Spend nothing on what ffmpeg does.** Titles, subtitles, color grade, loudness,
+reframe-by-crop, multi-format export, animatics, thumbnails, EDL/FCPXML — all
+local and free (`scripts/`). Reserve credits for generation, hero upscale/reframe,
+dubbing, and virality.
 
 ## Hard Rules
 
@@ -172,12 +197,16 @@ write IS the decision; un-logged approvals don't count.
 ## 6. Definition of Done (do not stop before this)
 A run is complete only when ALL hold:
 - `final/<slug>_final.mp4` exists, ffprobe-valid, has BOTH video and audio streams,
-  runtime within ±15% of target.
-- Final-cut QC (cutsheet) performed and logged, one fix pass applied if needed.
+  runtime within ±15% of target. This file is the **graded + mastered** cut.
+- **`python3 scripts/qc.py projects/<slug>` exits 0** (no FAILs) — this is the
+  automated Definition-of-Done gate; never deliver on a FAIL.
+- Final-cut QC (cutsheet, review-loop) performed and logged; one fix pass applied
+  if needed.
 - project.json stage = "delivered", budget ledger totals match spend.
-- Closing report given to the user: file path, runtime, shot count, retake count,
-  credits spent vs estimate, decisions log highlights, known imperfections
-  (honesty over polish — name the weakest shots).
+- Closing report given to the user: file path(s) incl. any platform deliverables,
+  runtime, shot count, retake count, credits spent vs estimate, the QC verdict,
+  decisions log highlights, and known imperfections (honesty over polish — name
+  the weakest shots).
 
 ## 7. Long-run hygiene
 - Prefer many small tool calls with checkpoint writes between them over giant
