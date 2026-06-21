@@ -28,7 +28,8 @@ Higgsfield MCP server as your render farm and ffmpeg as your edit bay.
 
 ```
 PROMPT
-  └─ 1. DEVELOPMENT   → screenplay.md, treatment, characters     (skill: screenwriting)
+  └─ 1. DEVELOPMENT   → screenplay.md, treatment, characters,    (skills: creative-writing,
+                        per-clip SPEC blocks                      screenwriting)
   └─ 2. PRE-PRO       → shotlist.json, character Elements/Souls,
                         style frames, project.json               (skill: shot-design)
   └─ 3. PRODUCTION    → generate clips via Higgsfield MCP,

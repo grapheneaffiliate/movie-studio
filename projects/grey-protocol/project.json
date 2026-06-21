@@ -1,0 +1,84 @@
+{
+  "slug": "grey-protocol",
+  "title": "Grey Protocol",
+  "created": "2026-06-12",
+  "user_prompt": "Sophisticated, extremely detailed Jason Bourne-style action script starring the man in the reference photo (silver hair, round dark-teal glasses). 50 seconds, every clip perfect, one finished video.",
+  "deliverable": "short_film",
+  "stage": "delivered",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 140,
+    "spent_credits": 111.14,
+    "ledger": [
+      {
+        "what": "12 start frames nano_banana",
+        "credits": 18
+      },
+      {
+        "what": "sound dept: 2 music + 1 TTS + 5 sfx",
+        "credits": 18
+      },
+      {
+        "what": "12 video shots kling3_0, 50s total",
+        "credits": 75
+      },
+      {
+        "what": "reconciliation vs opening balance (actual billed)",
+        "credits": 111.14
+      }
+    ],
+    "opening_balance": 1869.15,
+    "closing_balance": 1758.01
+  },
+  "continuity_assets": {
+    "elements": {
+      "the-keeper": "28087740-12dd-485c-89ff-9b87ab8b68c4"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {
+    "s01_frame": "2b64cc46-0c0a-41e3-8a00-bd87ad52a362",
+    "s02_frame": "288d7e64-ab45-4c00-9431-82a87b84c372",
+    "s03_frame": "c6ad1935-e81c-40ad-a0d9-86f73b7dcdc3",
+    "s04_frame": "d49c1d1f-6559-4f58-bccd-fcd3c77218df",
+    "s05_frame": "bf63dd3b-27d3-4726-9602-be86322cb5f7",
+    "s06_frame": "17ef758a-5a4f-4e59-98f8-33ed51b84a26",
+    "s07_frame": "4498d3a8-0072-4ad5-9c04-f31803b8d2f0",
+    "s08_frame": "5c273335-3e02-4e23-8962-a781ec03cbb0",
+    "s09_frame": "741b8d86-60af-4aac-87ad-475339e2af84",
+    "s10_frame": "5cd0ded6-3ac3-413e-a87f-9d7df6c9988f",
+    "s11_frame": "3a14dd97-a313-412c-93eb-c85da8ae306a",
+    "s12_frame": "4f7000cd-57c4-4e5f-9ae8-9ec50cf4f86f",
+    "m01_pursuit": "51b7b84c-7e6f-4a4b-889d-04a63a7f14d6",
+    "m02_aftermath": "5c06e99b-aafd-4223-8a94-0ef314c04d78",
+    "d01_asset": "7eace746-bfb0-4fff-b8d6-b811759e87eb",
+    "x01_ops_rain": "3c03cac1-a79c-4526-b18e-f449006265ca",
+    "x02_phone_snap": "33f9848f-1701-429a-a780-80e78d9b0e4d",
+    "x03_pursuit_bed": "567e2d1b-868b-463c-a150-6fa45f6cdfcf",
+    "x04_train_doors": "076ad627-3369-4c10-a1a0-2853b9c05293",
+    "x05_train_interior": "ffb14c96-26cc-4c3f-bd33-a01b93859c45",
+    "s01_video": "caecf7f3-7691-4c4b-8f5e-6193a3856233",
+    "s02_video": "d4f4e1b6-34d1-46b9-86a6-319caf70213a",
+    "s03_video": "f6d4367d-247b-4e70-aebc-e7bf95dc0363",
+    "s04_video": "bfeecd29-bca6-44a5-9ce5-1d07cd4a5221",
+    "s05_video": "1e630577-0b09-428e-8ac0-5880726fb581",
+    "s06_video": "26e854f5-a65f-4cf7-8705-41e6d7e95558",
+    "s07_video": "07a5ba95-5c72-4767-b746-c089d24bdbf7",
+    "s08_video": "69c0c19d-994c-4351-9826-dba172fca9eb",
+    "s09_video": "53fd1cce-895e-46b3-ada6-d5d0fe8147b9",
+    "s10_video": "a145833f-78b4-4356-b247-bdc0fc497ddb",
+    "s11_video": "f15d70ed-ee5a-49d0-b662-0c9216206811",
+    "s12_video": "4550923c-7205-4020-856f-b6410170f03f"
+  },
+  "notes": [
+    "reusing element the-keeper (built from this exact photo in last-green-place v1)",
+    "est: 12 imgs 18cr + 50s video 75cr + audio 12cr + margin = 140cr, under 500 gate",
+    "voice: Graham (en) - already cast for this face in last-green-place v1",
+    "all 12 frames approved t01 on sight (frames_t01_sheet.png)",
+    "s03 motion adjusted: phone generated as slab not flip -> 'lowers and pockets' instead of snap-shut (morph insurance)",
+    "preset interception now pre-declined on every video call",
+    "delivered: 48.8s final, both streams, QC cutsheet logged; 12/12 shots approved take 1, zero retakes",
+    "actual spend 111.14cr vs 140cr estimate"
+  ]
+}

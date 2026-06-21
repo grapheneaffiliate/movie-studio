@@ -1,0 +1,546 @@
+{
+  "project": "comet-twister",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 50,
+  "characters": [
+    {
+      "id": "COMET",
+      "name": "The Silver Comet (user's likeness)",
+      "continuity_method": "element",
+      "element_id": "a895b77d-5fdb-4d8a-8964-e0cf6e88d773",
+      "wardrobe": "slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, no glasses, tousled silver-blond hair",
+      "voice": "Graham (en) \u2014 warm baritone"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "duration_s": 4,
+      "shot_type": "storm wide",
+      "camera": "24mm wide locked low",
+      "action": "Wedge tornado chews toward town.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, a mile-wide wedge tornado chewing across a golden wheat field toward the horizon, towering black-green supercell sky above, a weathered split-rail fence in the foreground, dust curtain billowing, zero people",
+      "video_prompt": "the mile-wide wedge tornado churns and advances, the dust curtain billows, the golden wheat thrashes flat, the split-rail fence holds, sky roils",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.4
+      },
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "tornado churns and advances over wheat, dust curtain"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "scene": 2,
+      "duration_s": 4,
+      "shot_type": "farmhouse",
+      "camera": "35mm locked",
+      "action": "Porch swing whips, door tears, funnel looms.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, a white clapboard farmhouse with a wooden porch swing whipping on its chains and a screen door torn half off, the mile-wide wedge tornado looming huge in the background sky, sickly green storm light with golden rim on the house edge, debris skittering, zero people",
+      "video_prompt": "the porch swing whips violently on its chains, the screen door bangs and tears further, debris skitters across the yard, the tornado looms closer behind",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "swing whips, door tears, funnel grows behind"
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": 3,
+      "duration_s": 4,
+      "shot_type": "the kite taken",
+      "camera": "50mm whip-follow",
+      "action": "A red kite is ripped into the storm.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, a single red kite ripped sideways through the air with its tail snapping, dark debris and straw streaming past, the grey wall of the wedge tornado filling the background, dim dust-filtered light, zero people",
+      "video_prompt": "the red kite is torn sideways across the frame and sucked toward the funnel, its tail snapping, straw streaming past, the storm wall churning behind",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "red kite torn toward funnel"
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": 4,
+      "duration_s": 4,
+      "shot_type": "streak arrives",
+      "camera": "24mm wide locked",
+      "action": "A silver streak cuts the storm sky.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, one silver streak with a white contrail cutting left to right across the black-green storm sky beneath the cloud base, the mile-wide wedge tornado at the right of frame, a golden break of light where the streak passes",
+      "video_prompt": "the silver streak cuts left to right across the storm sky trailing a contrail and banks toward the tornado, the dark clouds churn around it",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4"
+      ],
+      "approved_take": "s04_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "silver streak banks toward the storm"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "scene": 5,
+      "duration_s": 4,
+      "shot_type": "the dive",
+      "camera": "35mm tracking",
+      "action": "The Comet dives at the funnel.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, mid-air above the fields, 35mm tracking <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, no glasses, tousled silver-blond hair, diving head-first toward the mile-wide wedge tornado ahead and below, cape streaming, fists forward, debris field around, golden key light on him against the black-green funnel, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> arcs and dives head-first toward the tornado, the cape streams behind him, fists forward, the funnel churns ahead and below, camera tracks with slight speed shake",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "hero dives toward funnel, cape streaming"
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": 6,
+      "duration_s": 4,
+      "shot_type": "boring in",
+      "camera": "35mm slight orbit",
+      "action": "Debris orbits him at the wall.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, no glasses, tousled silver-blond hair, pushing forward at the outer wall of the tornado with fence planks, a spinning wooden wheelbarrow and straw orbiting past him, the grey funnel wall close around, dim dust-filtered grey with golden rim on the hero, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> pushes forward into the spinning debris, fence planks and a wheelbarrow orbit past him, his arms shield forward, the wind tears the cape sideways, debris streaks around him",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4"
+      ],
+      "approved_take": "s06_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "debris orbits him at the wall, wheelbarrow visible"
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": 7,
+      "duration_s": 4,
+      "shot_type": "inside the throat",
+      "camera": "35mm low looking up",
+      "action": "He flies counter to the spin.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, interior of a tornado, the towering inner wall of the funnel spiralling around <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, no glasses, tousled silver-blond hair, centered mid-air with fists out, a faint disc of grey sky far above, eerie filtered daylight from the vortex top, dust motes streaming, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> plants himself mid-air with fists out and flies counter to the spin, the spiralling wall of cloud shudders and slows around him, the cape streams against the rotation",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4"
+      ],
+      "approved_take": "s07_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "counter-spin inside the throat - THE money shot, vortex slows around him"
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "scene": 8,
+      "duration_s": 4,
+      "shot_type": "the strain",
+      "camera": "50mm close locked",
+      "action": "Effort, then the wind eases.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, 50mm close-up of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, no glasses, tousled silver-blond hair, streaming dust and faint debris past his face, the vortex glowing behind him, cold vortex light with a warm under-glow building, jaw set with effort, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> sets his face with effort, jaw tight, then eases as the wind around him visibly slows, dust streaming past more gently",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "strain close-up, jaw set then eases, emblem+likeness strong"
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": 9,
+      "duration_s": 4,
+      "shot_type": "unraveling",
+      "camera": "24mm wide locked",
+      "action": "The funnel dies; sun breaks through.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, supercell tornado disaster blockbuster cinematography, ominous black-green storm sky, low golden light raking under the cloud base, dust and debris haze, anamorphic lens flare, large-format clarity, gentle film grain, the mile-wide wedge tornado unraveling into harmless ribbons of cloud over the wheat fields, debris beginning to fall straight down, a shaft of golden sun breaking through the cracking black-green sky, zero people",
+      "video_prompt": "the funnel unravels into drifting ribbons of cloud, the dust settles, a golden sun shaft widens over the farmland, debris drops gently straight down",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4"
+      ],
+      "approved_take": "s09_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "funnel unravels, sun shaft breaks through"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": 10,
+      "duration_s": 4,
+      "shot_type": "kite returned",
+      "camera": "35mm low hero",
+      "action": "Lands, returns the kite.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, superhero blockbuster cinematography, warm clearing gold-and-blue sky, calm golden wheat field, soft sun shafts, anamorphic lens flare, large-format clarity, gentle film grain, 35mm low hero angle of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, no glasses, tousled silver-blond hair, standing in a farmyard holding a red kite and offering it out toward one small distant figure on the porch of an intact white clapboard farmhouse, golden wheat standing tall, warm gold light breaking, cape rim-lit silver, one man and one tiny distant figure only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> sets down in the yard, catches the red kite and holds it out toward the small distant figure on the porch, the cape settles, the wheat sways upright, light warms",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4"
+      ],
+      "approved_take": "s10_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "sets down, offers the red kite toward the farmhouse"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": 11,
+      "duration_s": 4,
+      "shot_type": "liftoff calm",
+      "camera": "35mm low locked",
+      "action": "Nod to the clear sky, lifts off.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, superhero blockbuster cinematography, warm clearing gold-and-blue sky, calm golden wheat field, soft sun shafts, anamorphic lens flare, large-format clarity, gentle film grain, 35mm low angle of <<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>>, a mid-50s man, slate-blue fitted hero suit with a polished silver comet emblem (a circle with a swept tail) on the chest, flowing slate-blue cape with silver lining, no glasses, tousled silver-blond hair, standing in a fully calm golden wheat field under a clean blue-and-gold sky, the white clapboard farmhouse small behind, full warm gold light, one man only",
+      "video_prompt": "<<<a895b77d-5fdb-4d8a-8964-e0cf6e88d773>>> looks up to the clearing sky, gives a small nod, then lifts straight up out of frame with the cape trailing last, the wheat barely sways",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "looks to clear sky, nod, lifts off cape-last over calm field"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "scene": 12,
+      "duration_s": 5,
+      "shot_type": "title plate",
+      "camera": "24mm wide slow push",
+      "action": "Calm field, contrail fades, title.",
+      "dialogue": null,
+      "start_frame_prompt": "epic cinematic film still, superhero blockbuster cinematography, warm clearing gold-and-blue sky, calm golden wheat field, soft sun shafts, anamorphic lens flare, large-format clarity, gentle film grain, wide calm golden wheat field with an intact white clapboard farmhouse under a clearing gold-and-blue sky, one thin silver contrail looping away toward the sun, peaceful, zero people",
+      "video_prompt": "the silver contrail feathers and fades, the wheat sways gently, the light warms, all else still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.8
+      },
+      "status": "approved",
+      "takes": [
+        "s12_t01.mp4"
+      ],
+      "approved_take": "s12_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s12_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "calm field, contrail loops, golden resolution"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "music": [
+      {
+        "id": "m01_dread",
+        "prompt": "ominous low brass drone and anxious tremolo strings, building dread, a distant storm-warning siren motif underneath",
+        "duration_s": 16,
+        "start_at_s": 0,
+        "gain_db": -7
+      },
+      {
+        "id": "m02_soar",
+        "prompt": "soaring heroic orchestral superhero theme, bold brass over driving strings, a straining intense mid-passage, then a broad warm resolution and one grand final chord",
+        "duration_s": 33,
+        "start_at_s": 16,
+        "gain_db": -6
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01_comet",
+        "character": "COMET",
+        "text": "Storm's passed. You're alright now.",
+        "voice": "Graham (en)",
+        "start_at_s": 41.0,
+        "gain_db": 0
+      }
+    ],
+    "sfx": [
+      {
+        "id": "x01_storm",
+        "prompt": "deep tornado roar, howling wind, rattling debris, distant tornado warning siren",
+        "duration_s": 16,
+        "start_at_s": 0,
+        "gain_db": -11
+      },
+      {
+        "id": "x02_dive",
+        "prompt": "rising superhero dive wind shriek, fast air rush",
+        "duration_s": 6,
+        "start_at_s": 16,
+        "gain_db": -7
+      },
+      {
+        "id": "x03_vortex",
+        "prompt": "full tornado vortex roar with whipping debris, slowly dropping in pitch as it weakens",
+        "duration_s": 12,
+        "start_at_s": 22,
+        "gain_db": -7
+      },
+      {
+        "id": "x04_calm",
+        "prompt": "howling wind dying down to a gentle breeze and quiet, a single meadowlark birdcall, peaceful settling",
+        "duration_s": 15,
+        "start_at_s": 34,
+        "gain_db": -12
+      }
+    ]
+  }
+}

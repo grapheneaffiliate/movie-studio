@@ -13,7 +13,7 @@ Three layers, deliberately separated:
 
 | Layer | Component | Role |
 |---|---|---|
-| **Brain** | Claude Code + `CLAUDE.md` + 6 skills | Writer, director, cinematographer, editor, QC reviewer. All creative judgment lives here. |
+| **Brain** | Claude Code + `CLAUDE.md` + 7 skills | Writer, director, cinematographer, editor, QC reviewer. All creative judgment lives here. |
 | **Render farm** | Higgsfield MCP (your Ultra account) | Every pixel and every audio sample: images, video clips, music, TTS dialogue, SFX, upscaling, reframing. |
 | **Edit bay** | ffmpeg via `scripts/` | Deterministic local assembly: normalization, transitions, audio mixing/ducking, muxing, frame extraction. Free and repeatable — never spend credits on what ffmpeg can do. |
 
@@ -244,10 +244,11 @@ Edit `CLAUDE.md` directly:
 
 ---
 
-## 7. The Six Departments (.claude/skills/)
+## 7. The Seven Departments (.claude/skills/)
 
 | Skill | Stage | What it owns |
 |---|---|---|
+| `creative-writing` | Development | Concept novelty (first-idea rule, subversion levers, specificity-as-originality) + the *generative screenplay* format: a SPEC block per clip naming every on-screen detail — subjects/count, wardrobe (verbatim from bible), props, light source+direction, camera, what moves AND what stays static — so downstream prompts are built by transcription, not invention. The upstream fix for most generation errors. |
 | `screenwriting` | Development | Logline → treatment → character bible (in prompt-ready language, one outfit per act) → formatted screenplay with *visual* action lines → style page. Enforces generatability (no crowds/mirrors/fine hand work — uses cinematic workarounds). |
 | `shot-design` | Pre-pro | Script → shotlist.json. Shot rhythm (wide→medium→close, cutaways to hide AI seams), character casting → Higgsfield **Elements**, the two prompts per shot, continuity chain planning, per-shot model routing, **credit budgeting**, audio block authoring. |
 | `production` | Production | The image-first law, `<<<element_id>>>` placement, start_image animation, chaining via lastframe, download + status discipline, single-asset fast path. |

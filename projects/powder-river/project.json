@@ -1,0 +1,91 @@
+{
+  "slug": "powder-river",
+  "title": "Powder River",
+  "created": "2026-06-13",
+  "user_prompt": "50-second country western in the style of the movie Tombstone, starring the man in the photo as a gunslinger/lawman. Write the script, plan each clip.",
+  "deliverable": "short_film",
+  "stage": "delivered",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 135,
+    "spent_credits": 118.5,
+    "ledger": [
+      {
+        "what": "5 of 12 start frames (s01-s05) before service outage",
+        "credits": 7.5
+      },
+      {
+        "what": "7 remaining frames (s06-s12) after outage cleared",
+        "credits": 10.5
+      },
+      {
+        "what": "sound dept: 2 music + 1 TTS + 3 sfx",
+        "credits": 18
+      },
+      {
+        "what": "12 video shots kling3_0, 49s",
+        "credits": 73.5
+      },
+      {
+        "what": "NOTE: closing balance 8735.9 reflects user credit top-ups mid-production; spend tracked per-job in ledger above",
+        "credits": 0
+      },
+      {
+        "what": "s10 punchier retake: 1 frame + 1 video",
+        "credits": 9
+      }
+    ],
+    "opening_balance": 1407.8,
+    "closing_balance": 8735.9
+  },
+  "continuity_assets": {
+    "elements": {
+      "cullen-marshal": "16868942-7daa-495f-b61b-2cecfa695bf6"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {
+    "s01_frame": "d9af5968-8e8b-4733-a95b-614bd5d60b31",
+    "s02_frame": "2a03ff7d-6109-425e-af8c-d6ea765317f1",
+    "s03_frame": "f9697dfb-22bd-4268-aae1-9e832e25be85",
+    "s04_frame": "894f76c3-b26d-498a-93a7-3a466c83eacd",
+    "s05_frame": "b09a1ac4-779d-46cc-9bd9-d42b1591f6f6",
+    "s06_frame": "e7dae714-c1f4-42a4-bd30-7ac6870574d6",
+    "s07_frame": "7e4f69c9-832e-4322-95b4-72dbc27590bb",
+    "s08_frame": "3d141a03-2bf7-42a2-9eba-f5ed07c7134f",
+    "s09_frame": "f1f8782e-fe4e-41ea-b14e-336af42e9581",
+    "s10_frame": "222af0b2-68de-41db-b72c-378329578173",
+    "s11_frame": "30181c86-59e1-4238-9180-4e2213d1b874",
+    "s12_frame": "4f327e63-3492-4aac-b788-1fe3dc5072ab",
+    "m01_tension": "bd3f5153-b676-44dd-9e1a-0001193ab4ed",
+    "m02_resolve": "5cf309a7-babd-4f19-90f5-6b7140b01326",
+    "d01_cullen": "d8e90e09-4567-48b0-b784-c59c99f5afb1",
+    "x01_town": "697ab483-f7dd-4dc4-a6e4-a472b89c35b3",
+    "x02_clear": "8444ca61-5019-4422-a790-3b8984f3418e",
+    "x03_shot": "6c1f8aeb-f57c-4dbf-891b-621994a78dbf",
+    "s01_video": "77a1094d-19a9-4de8-888b-af44f50e10d0",
+    "s02_video": "fe25003a-aa02-461b-aba7-a208c149f561",
+    "s03_video": "5fcee39f-b780-43c2-9f9e-b4507b5b890d",
+    "s04_video": "0dbc971d-6230-41b1-9b49-b009ee95ceed",
+    "s05_video": "a52efdab-5e44-4e04-841b-9e69168388cb",
+    "s06_video": "e988c89a-66f5-4b98-93b1-557eb0cc72ce",
+    "s07_video": "ac51fbee-8e8c-4648-b721-7c091087bb6c",
+    "s08_video": "b5f38302-3ece-4d82-b466-ee24487d4bf3",
+    "s09_video": "1ca6270d-7594-4ec8-85e7-dbc0856f5cf0",
+    "s10_video": "4194a217-5dda-4fbd-9395-8f11df7e4e07",
+    "s11_video": "a459d16e-bd39-40f7-bd10-85ecb19b1bf5",
+    "s12_video": "ddcb1a08-ed22-40ab-adb1-827d580734cd"
+  },
+  "notes": [
+    "element cullen-marshal built from two proven upright refs (ac828509+07027936) of the same man - new photo rotation unreliable, fell back to known-good refs",
+    "Tombstone-style: gunslinger gets period look (Stetson, duster, handlebar mustache), NO modern glasses",
+    "duel staged non-graphic: outlaw faceless/silhouette, fall in backlit dust; voice Graham (en) gravelly",
+    "HIGGSFIELD OUTAGE mid-frames: generate_image+generate_audio both returning 'Something went wrong' ~19:33 UTC; reads (balance/show_generations) fine. 5 frames done, 7 pending; backing off to retry.",
+    "PARTIAL DELIVERY ('just finish' during sustained Higgsfield outage ~1h40m): cut a 22.2s picture-only Tombstone-style Act-1 teaser from the 5 frames that rendered before the outage (s01 town, s02 boots, s03 marshal, s04 killer, s05 town-clears) via ffmpeg Ken Burns + dissolves + title. NO audio (gen down). Full 12-shot+sound film resumes from s06 when Higgsfield recovers.",
+    "OUTAGE CLEARED ~23:12 UTC; resumed: 7 frames + all 7 audio submitted",
+    "DELIVERED after outage recovery: full 47.8s Tombstone-style western, both streams, QC cutsheet logged; 12/12 shots take 1 (zero retakes once service returned)",
+    "the picture-only teaser delivered during the outage is now superseded by this complete film with sound",
+    "v2: s10 fall retaken punchier per user \u2014 killer hurled backward, hat/pistol flying, slams into dust; frame re-graded to match sepia-gold. Re-rendered."
+  ]
+}

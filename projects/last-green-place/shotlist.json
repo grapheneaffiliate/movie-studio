@@ -1,0 +1,772 @@
+{
+  "project": "last-green-place",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 50,
+  "characters": [
+    {
+      "id": "KEEPER",
+      "name": "Erin (The Keeper)",
+      "continuity_method": "element",
+      "element_id": "c55d4b57-1b2b-4354-b109-607dbac838d4",
+      "wardrobe": "heather-grey crew-neck t-shirt, worn khaki work trousers, short dark-brown hair with long side-swept fringe, hazel-green eyes, fair skin",
+      "voice": "Claire (en)",
+      "notes": "RECAST v2 from user-supplied photo; element the-keeper (28087740) retired but kept"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "duration_s": 5,
+      "shot_type": "wide establishing",
+      "camera": "24mm locked low",
+      "action": "Dead orange plain, three dust plumes rising.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 35mm anamorphic film still, Mad Max style desert wasteland, burnt-orange dust haze, teal shadow grade, blown-out white sun, film grain, 24mm wide shot locked low to cracked orange clay ground, flat dead plain to the horizon, three tall black dust plumes rising on the horizon line, low rocky ridge far right, white-hot sky, heat shimmer, empty wasteland, zero people",
+      "video_prompt": "heat shimmer ripples over the cracked clay, three black dust plumes crawl left to right along the horizon, camera locked, foreground rocks and horizon line stay still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.5
+      },
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s01_frame_t01.png",
+          "kind": "start_frame",
+          "job": "66c4729b-ef93-48b4-a565-c4aa7bdb7892",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dust plumes crawl, heat shimmer, camera locked - per SPEC"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "scene": 1,
+      "duration_s": 4,
+      "shot_type": "detail crash-in",
+      "camera": "85mm low angle crash push",
+      "action": "Chrome grille explodes through the dust.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 35mm anamorphic film still, Mad Max style desert wasteland, burnt-orange dust haze, teal shadow grade, blown-out white sun, film grain, 85mm low angle close-up of one rusted chrome truck grille with riveted steel teeth, one cracked headlight, barbed-wire wrap, massive dust cloud filling the entire background, sun glinting on chrome, machine only, zero people",
+      "video_prompt": "the rusted chrome truck grille bursts forward through the dust toward camera, dust whips past the lens, slight crash push-in, violent speed",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s02_frame_t01.png",
+          "kind": "start_frame",
+          "job": "9e4a3dcc-083d-41c7-9186-8f34230b6226",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "violent grille advance through dust, crash energy excellent"
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": 2,
+      "duration_s": 4,
+      "shot_type": "wide tilt",
+      "camera": "24mm slow tilt up",
+      "action": "The wall of welded car doors between rock outcrops.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 35mm anamorphic film still, Mad Max style desert wasteland, burnt-orange dust haze, teal shadow grade, blown-out white sun, film grain, 24mm wide shot, towering wall of welded rust-streaked car doors spanning the frame between two dark rock outcrops, steel plate seams, one sun-bleached sky-blue car door among the rust, orange dust sky behind, hard shadows in the door seams, zero people",
+      "video_prompt": "camera tilts slowly up the wall of welded car doors, thin dust drifts across frame, the wall and the rocks stay rigid",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s03_frame_t01.png",
+          "kind": "start_frame",
+          "job": "5e456e66-958f-4951-83d8-a9c2d911397c",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "wall rigid, dust drift; tilt gentler than SPEC but reads well at 4s"
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": 2,
+      "duration_s": 4,
+      "shot_type": "macro detail",
+      "camera": "85mm macro, dead-center, slow push",
+      "action": "Hand-painted sign: a single green leaf.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 35mm anamorphic film still, Mad Max style desert wasteland, burnt-orange dust haze, teal shadow grade, blown-out white sun, film grain, 85mm macro detail, dead-center framing, hand-painted white sign with a single green leaf bolted with two rusted bolts onto welded car-door steel, paint slightly peeling, raking sunlight from upper right, flat steel background filling the frame, zero people",
+      "video_prompt": "very slow push-in on the hand-painted white sign with a single green leaf, a thin ribbon of dust slides across the steel, the sign and the bolts stay perfectly still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4"
+      ],
+      "approved_take": "s04_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s04_frame_t01.png",
+          "kind": "start_frame",
+          "job": "5e33177d-6b3f-44f6-9a23-eb5ed5616a87",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "clean slow push on leaf sign, sign/bolts static"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "scene": 3,
+      "duration_s": 5,
+      "shot_type": "wide reveal",
+      "camera": "24mm slow dolly forward",
+      "action": "SMASH CUT: the garden. Green. Birdsong.",
+      "dialogue": null,
+      "start_frame_prompt": "sunlit 35mm film still, warm Kodak color, lush green garden bounce light, soft summer morning sun from upper left, gentle film grain, 24mm wide shot down a brick path, lush enclosed garden, raised timber vegetable beds with tomato vines, two fruit trees, deep green foliage on all sides, the inside face of a wall of welded rust-streaked car doors far in the background, zero people",
+      "video_prompt": "slow dolly forward along the brick path, leaves stir in a light wind, the beds the path and the wall stay fixed",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s05_frame_t01.png",
+          "kind": "start_frame",
+          "job": "3f424d17-c6e7-4c62-a476-fc09d0916c8c",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dolly down brick path confirmed, leaves stir, wall integrated bg"
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": 3,
+      "duration_s": 5,
+      "shot_type": "medium orbit",
+      "camera": "50mm waist-up, slow orbit shoulder to profile",
+      "action": "The Keeper waters the tomatoes.",
+      "dialogue": null,
+      "start_frame_prompt": "sunlit 35mm film still, warm Kodak color, lush green garden bounce light, soft summer morning sun from upper left, gentle film grain, 50mm waist-up shot from behind the shoulder of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man with short silver-blond side-swept hair, round dark-teal acetate glasses, light grey stubble, heather-grey crew-neck t-shirt, worn khaki work trousers, tilting a galvanized watering can over tomato vines on timber stakes, rim light on his silver hair, green foliage behind, one man only, no other people",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> tilts the galvanized watering can, water arcs onto the tomato vines, camera orbits slowly from behind his shoulder to his profile, only his arms move, background stays still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "c55d4b57-1b2b-4354-b109-607dbac838d4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4",
+        "s06_t02.mp4",
+        "s06_t03.mp4"
+      ],
+      "approved_take": "s06_t03.mp4",
+      "review_notes": [
+        {
+          "take": "s06_frame_t01.png",
+          "kind": "start_frame",
+          "job": "41a8ceb1-eecc-480f-864b-f9c8a9a49018",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "water arc onto vines, arm-only motion, slow orbit; identity anchors hold"
+        },
+        {
+          "take": "s06_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "water arc, slow orbit ends on face turn - nice reveal"
+        },
+        {
+          "take": "s06_t03.mp4",
+          "kind": "video (Erin recast v3)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "watering arc, orbit to profile, likeness holds"
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": 3,
+      "duration_s": 4,
+      "shot_type": "close, hutch height",
+      "camera": "85mm close, static",
+      "action": "One lettuce leaf for the rabbit.",
+      "dialogue": null,
+      "start_frame_prompt": "sunlit 35mm film still, warm Kodak color, lush green garden bounce light, soft summer morning sun from upper left, gentle film grain, 85mm close shot at hutch height, <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man with short silver-blond side-swept hair, round dark-teal acetate glasses, light grey stubble, heather-grey crew-neck t-shirt, worn khaki work trousers, crouched at a timber rabbit hutch with wire-mesh front, holding one lettuce leaf through the mesh to one grey-brown rabbit, dappled leaf shadow, brick path under his boots, green foliage behind, one man and one rabbit only",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> offers the lettuce leaf through the wire mesh, the one grey-brown rabbit takes one small bite, camera static, nothing else moves",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "c55d4b57-1b2b-4354-b109-607dbac838d4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4",
+        "s07_t02.mp4",
+        "s07_t03.mp4"
+      ],
+      "approved_take": "s07_t03.mp4",
+      "review_notes": [
+        {
+          "take": "s07_frame_t01.png",
+          "kind": "start_frame",
+          "job": "c59649b0-42a6-4f06-9e3d-28f2216ae55b",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "leaf offered, rabbit reaches and bites, camera static; identity holds"
+        },
+        {
+          "take": "s07_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "leaf offered, rabbit takes it, static"
+        },
+        {
+          "take": "s07_t03.mp4",
+          "kind": "video (Erin recast v3)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "leaf to rabbit, static, likeness good"
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "scene": 4,
+      "duration_s": 4,
+      "shot_type": "long-lens silhouettes",
+      "camera": "85mm compression, locked",
+      "action": "War party stalled on the ridge. They never attack.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 35mm anamorphic film still, Mad Max style desert wasteland, burnt-orange dust haze, teal shadow grade, blown-out white sun, film grain, 85mm long-lens compression shot, four distant black human silhouettes standing on a ridge crest against the orange dust sky, two distant silhouetted vehicles beside them, idle dust drifting, the wall of welded rust-streaked car doors small in the valley below, figures backlit pure silhouette, far away, no facial detail",
+      "video_prompt": "dust drifts across the ridge, one distant silhouette slowly lowers a raised arm, the silhouetted vehicles shudder at idle, the ridge line and the valley stay fixed, camera locked",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s08_frame_t01.png",
+          "kind": "start_frame",
+          "job": "49cb981d-36ec-4d95-a37e-10d36838c80c",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "silhouettes hold position, dust drift, idle menace"
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": 5,
+      "duration_s": 5,
+      "shot_type": "medium frontal",
+      "camera": "35mm knee-up, very slow push-in",
+      "action": "Tea in the deck chair. The sky is still ending. Not his problem.",
+      "dialogue": null,
+      "start_frame_prompt": "sunlit 35mm film still, warm Kodak color, lush green garden bounce light, soft summer morning sun from upper left, gentle film grain, 35mm knee-up frontal shot of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man with short silver-blond side-swept hair, round dark-teal acetate glasses, light grey stubble, heather-grey crew-neck t-shirt, worn khaki work trousers, sitting in a weathered wooden deck chair holding a chipped white enamel mug, garden lawn edge, the inside face of the wall of welded rust-streaked car doors behind him, boiling orange dust sky above the wall line, soft morning sun on him, one man only, no other people",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> raises the chipped white enamel mug and takes one slow sip, steam curls from the mug, the orange dust sky churns slowly above the wall, very slow push-in, the deck chair and the wall stay still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "c55d4b57-1b2b-4354-b109-607dbac838d4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "dissolve",
+        "duration_s": 0.5
+      },
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4",
+        "s09_t02.mp4",
+        "s09_t03.mp4"
+      ],
+      "approved_take": "s09_t03.mp4",
+      "review_notes": [
+        {
+          "take": "s09_frame_t01.png",
+          "kind": "start_frame",
+          "job": "73d930ed-602f-402d-87de-ee165fd95b3d",
+          "grades": {
+            "fidelity": 4,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "tighter than SPEC (no garden fg, wall directly behind) but dramatically stronger; approved as variation"
+        },
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "raise-and-sip clean, orange sky churning above wall; identity holds"
+        },
+        {
+          "take": "s09_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "raise+sip, orange sky over wall, garden fg regained vs t01"
+        },
+        {
+          "take": "s09_t03.mp4",
+          "kind": "video (Erin recast v3)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "sip + steam, orange sky over wall, strong likeness"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": 5,
+      "duration_s": 5,
+      "shot_type": "portrait close-up",
+      "camera": "50mm close-up, static",
+      "action": "Half-smile. Goggles down \u2014 for soldering.",
+      "dialogue": null,
+      "start_frame_prompt": "sunlit 35mm film still, warm Kodak color, lush green garden bounce light, soft summer morning sun from upper left, gentle film grain, 50mm portrait close-up of <<<28087740-12dd-485c-89ff-9b87ab8b68c4>>>, a mid-50s man with short silver-blond side-swept hair, round dark-teal acetate glasses, light grey stubble, heather-grey crew-neck t-shirt, worn khaki work trousers, scratched brass welding goggles pushed up on his forehead, thin black drip-line tubing coil in his lap, soft green bokeh background, catch-light in the round dark-teal acetate glasses, faint half-smile, one man only",
+      "video_prompt": "<<<28087740-12dd-485c-89ff-9b87ab8b68c4>>> smiles faintly then pulls the scratched brass welding goggles down over the round dark-teal acetate glasses with one hand, camera static, shoulders and background stay still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "c55d4b57-1b2b-4354-b109-607dbac838d4"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4",
+        "s10_t02.mp4",
+        "s10_t03.mp4"
+      ],
+      "approved_take": "s10_t03.mp4",
+      "review_notes": [
+        {
+          "take": "s10_frame_t01.png",
+          "kind": "start_frame",
+          "job": "eda14e9f-d9c9-4955-9435-d54942798cb8",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "smile -> goggles pulled down over glasses, ends seated; the button beat exactly"
+        },
+        {
+          "take": "s10_t02.mp4",
+          "kind": "video (recast)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "smile -> goggles down over eyes, ends seated"
+        },
+        {
+          "take": "s10_t03.mp4",
+          "kind": "video (Erin recast v3)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "goggles button beat, strongest likeness match to Erin's photo"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": 6,
+      "duration_s": 5,
+      "shot_type": "wide title plate",
+      "camera": "24mm locked, barely perceptible zoom",
+      "action": "Dusk. The wall tiny at the horizon. Title in post.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 35mm anamorphic film still, Mad Max style desert wasteland, burnt-orange dust haze, teal shadow grade, blown-out white sun, film grain, 24mm wide shot at dusk, vast empty wasteland, the wall of welded rust-streaked car doors tiny at the horizon, low blown-out sun on the horizon behind the wall, orange dust sky at dusk, the wall the only structure, zero people",
+      "video_prompt": "dust drifts slowly, the light dims very slightly, barely perceptible slow zoom toward the wall, horizon stays level",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.8
+      },
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s11_frame_t01.png",
+          "kind": "start_frame",
+          "job": "46b2f164-29b7-4975-852e-4d4cb9a51025",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 4,
+            "technical": 5,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "matches SPEC; viewed via Read"
+        },
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 4,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dusk plate, gentle drift, ready for drawtext title"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "music": [
+      {
+        "id": "m01_war_drums",
+        "prompt": "aggressive cinematic war drums, taiko and metal percussion hits, accelerating tempo, Mad Max wasteland chase score, abrupt hard stop at the end",
+        "duration_s": 17,
+        "start_at_s": 0,
+        "gain_db": -6
+      },
+      {
+        "id": "m02_garden_theme",
+        "prompt": "warm pastoral acoustic theme, fingerpicked nylon guitar and soft strings, serene and gently wry, slow build to a tender swell, peaceful morning",
+        "duration_s": 33,
+        "start_at_s": 17,
+        "gain_db": -6
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01_keeper",
+        "character": "KEEPER",
+        "text": "Not today, lads.",
+        "voice": "Claire (en)",
+        "start_at_s": 32,
+        "gain_db": 0
+      }
+    ],
+    "sfx": [
+      {
+        "id": "x01_engines",
+        "prompt": "swarm of distant V8 engines roaring and circling, desert wind, dust hiss, menacing approach",
+        "duration_s": 17,
+        "start_at_s": 0,
+        "gain_db": -8
+      },
+      {
+        "id": "x02_garden_amb",
+        "prompt": "peaceful garden ambience, morning birdsong, light leaves rustling, gentle water sprinkling on plants",
+        "duration_s": 33,
+        "start_at_s": 17,
+        "gain_db": -12
+      },
+      {
+        "id": "x03_goggle_hit",
+        "prompt": "single sharp percussive clack, brass goggles snapping into place, dry close foley",
+        "duration_s": 2,
+        "start_at_s": 42,
+        "gain_db": -3
+      },
+      {
+        "id": "x04_doppler",
+        "prompt": "single engine roar passing by and fading away into distance, doppler effect, resolving into quiet wind",
+        "duration_s": 5,
+        "start_at_s": 45,
+        "gain_db": -6
+      }
+    ]
+  }
+}

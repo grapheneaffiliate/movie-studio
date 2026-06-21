@@ -30,13 +30,19 @@ prompt TEXT — never in `medias[]`.
 
 ## 3. The two prompts per shot
 
+When the screenplay carries `[SPEC sNN]` blocks (creative-writing skill),
+prompts are built by TRANSCRIPTION — every SPEC noun lands in a prompt, nothing
+is invented here. A missing detail is a script bug: send it back upstream.
+
 - `start_frame_prompt` — a complete still-image prompt: style-page language
-  (palette, lens, grade) + scene content + `<<<element_id>>>` for any character
-  in frame. This is what gets generated and approved cheaply as an image.
-- `video_prompt` — motion and camera ONLY ("slow dolly push-in, heat shimmer
-  rising, she turns toward the window"). The look is already locked in the start
-  frame; restating style here causes drift. Include one explicit camera move and
-  strong motion verbs (frozen-clip insurance).
+  (palette, lens, grade) + SPEC subjects/wardrobe/props/space/light +
+  `<<<element_id>>>` for any character in frame. This is what gets generated
+  and approved cheaply as an image.
+- `video_prompt` — motion and camera ONLY, from the SPEC camera/motion/static
+  lines ("slow dolly push-in, heat shimmer rising, she turns toward the
+  window"). The look is already locked in the start frame; restating style here
+  causes drift. Include one explicit camera move and strong motion verbs
+  (frozen-clip insurance), and keep the SPEC's "only X moves" constraint.
 
 ## 4. Continuity chains
 

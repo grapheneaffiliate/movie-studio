@@ -1,0 +1,549 @@
+{
+  "project": "powder-river",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "target_runtime_s": 50,
+  "characters": [
+    {
+      "id": "CULLEN",
+      "name": "Marshal Cullen (user's likeness)",
+      "continuity_method": "element",
+      "element_id": "16868942-7daa-495f-b61b-2cecfa695bf6",
+      "wardrobe": "long black leather duster coat, dark waistcoat over a collarless shirt, black flat-brim Stetson hat, tin marshal's star, gunbelt with twin holstered Colt revolvers, silver-grey hair, grey handlebar mustache, weathered lined face, no glasses",
+      "voice": "Graham (en) - gravelled drawl"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "duration_s": 4,
+      "shot_type": "town wide",
+      "camera": "24mm wide locked low",
+      "action": "Dusty main street, bell tower, tumbleweed.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, wide shot down the center of a dusty main street, warped clapboard storefronts on both sides, a hitching post, a church bell tower at the far end, a tumbleweed, low golden sun raking down the street, deep shadows, zero people",
+      "video_prompt": "dust drifts down the street, a tumbleweed rolls across the frame, a loose shutter sways, heat haze shimmers, the buildings stand still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.4
+      },
+      "status": "approved",
+      "takes": [
+        "s01_t01.mp4"
+      ],
+      "approved_take": "s01_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s01_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dusty street, tumbleweed, heat haze"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "scene": 2,
+      "duration_s": 4,
+      "shot_type": "boots macro",
+      "camera": "85mm low macro locked",
+      "action": "Boots step off the boardwalk, spurs ring.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 85mm low macro of worn leather cowboy boots with spurs stepping off a dusty boardwalk, the saloon batwing doors swinging behind, hard golden side light, long shadow, no face",
+      "video_prompt": "the boots step forward off the boardwalk into the dust, spurs ringing, the saloon batwing doors swinging shut behind, dust kicks up",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s02_t01.mp4"
+      ],
+      "approved_take": "s02_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s02_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "boots off boardwalk, spurs, batwing"
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": 3,
+      "duration_s": 4,
+      "shot_type": "the marshal",
+      "camera": "35mm low hero, slow push",
+      "action": "Cullen steps out, hand near his Colt.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 35mm low hero angle of <<<16868942-7daa-495f-b61b-2cecfa695bf6>>>, long black leather duster coat, dark waistcoat over a collarless shirt, black flat-brim Stetson hat, tin marshal's star, gunbelt with twin holstered Colt revolvers, silver-grey hair, grey handlebar mustache, weathered lined face, no glasses, standing in the dusty main street, the saloon facade and street receding behind him, hard golden key light with hat-brim shadow across his upper face and lit jaw, one man only",
+      "video_prompt": "<<<16868942-7daa-495f-b61b-2cecfa695bf6>>> steps into the street and stops, his coat tail settling, his hand drifting near the holstered Colt revolver, he lifts his chin and his eyes go hard, dust drifts",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "16868942-7daa-495f-b61b-2cecfa695bf6"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s03_t01.mp4"
+      ],
+      "approved_take": "s03_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s03_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "marshal stands, hand near holster, hard eyes"
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": 4,
+      "duration_s": 4,
+      "shot_type": "the killer",
+      "camera": "75mm long compression locked",
+      "action": "The black-hatted killer, far down the street.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 75mm long lens compression, a black-hatted figure in a black coat standing far down the dusty main street, backlit by the low golden sun, a pure black silhouette in the golden dust haze, a hitching post nearby, face never visible",
+      "video_prompt": "the killer stands motionless, only his long black coat tail stirring in the hot wind, dust drifting across the frame, his face stays in pure shadow",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s04_t01.mp4"
+      ],
+      "approved_take": "s04_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s04_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer motionless, coat stirs, face shadowed"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "scene": 5,
+      "duration_s": 4,
+      "shot_type": "town clears",
+      "camera": "35mm locked",
+      "action": "A shutter slams, a horse hauled off, a dog bolts.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, a wooden shutter slamming closed on a warped clapboard storefront, a saddled horse being hauled by its reins toward the edge of frame, a dog mid-bolt across the dusty street, empty porches, harsh gold light, zero human faces",
+      "video_prompt": "a wooden shutter bangs shut, the horse is hauled out of frame by its reins, the dog bolts across the dust, the street empties, dust drifts",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s05_t01.mp4"
+      ],
+      "approved_take": "s05_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s05_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "shutter, horse, dog bolts - town empties"
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": 6,
+      "duration_s": 4,
+      "shot_type": "the eyes",
+      "camera": "75mm tight locked",
+      "action": "Extreme close: his eyes narrow.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 75mm extreme close-up of <<<16868942-7daa-495f-b61b-2cecfa695bf6>>>'s upper face and eyes under the black flat-brim Stetson hat, grey handlebar mustache, a hard slash of golden light across the eyes beneath the hat-brim shadow, a bead of sweat, one man only",
+      "video_prompt": "<<<16868942-7daa-495f-b61b-2cecfa695bf6>>>'s eyes narrow to a steely squint, a single bead of sweat tracks down his temple, the hat brim casts a hard shadow, nothing else moves",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "16868942-7daa-495f-b61b-2cecfa695bf6"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s06_t01.mp4"
+      ],
+      "approved_take": "s06_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s06_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "steely squint, sweat, hat-brim shadow - intense"
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": 7,
+      "duration_s": 4,
+      "shot_type": "gun hand macro",
+      "camera": "85mm macro locked",
+      "action": "His fingers hover over the Colt.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 85mm macro of a man's hand hovering a half-inch above a holstered Colt revolver at his hip, black duster sleeve cuff, gunbelt, hard golden rim light on the knuckles, deep shadow, no face",
+      "video_prompt": "the fingers slowly flex and hover above the holstered Colt revolver, the tendons tightening, a leather creak, nothing else moves",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s07_t01.mp4"
+      ],
+      "approved_take": "s07_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s07_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "fingers flex over the Colt, leather creak"
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "scene": 8,
+      "duration_s": 4,
+      "shot_type": "killer's tell",
+      "camera": "75mm long locked",
+      "action": "The killer's hand twitches toward his holster.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 75mm long lens, the black-hatted killer silhouette far down the dusty street, his black coat sweeping back from his hip to reveal a holster, his hand twitching near it, backlit golden dust, face never resolved",
+      "video_prompt": "the killer's coat sweeps back from his hip and his hand twitches toward the holster, dust drifts across, his face stays pure black silhouette",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s08_t01.mp4"
+      ],
+      "approved_take": "s08_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s08_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer's coat sweeps, hand twitches - the tell"
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": 9,
+      "duration_s": 4,
+      "shot_type": "the draw",
+      "camera": "35mm low locked",
+      "action": "The draw \u2014 muzzle flash, powder smoke.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 35mm low angle of <<<16868942-7daa-495f-b61b-2cecfa695bf6>>>, long black leather duster coat, dark waistcoat over a collarless shirt, black flat-brim Stetson hat, tin marshal's star, gunbelt with twin holstered Colt revolvers, silver-grey hair, grey handlebar mustache, weathered lined face, no glasses, drawing a Colt revolver as it clears the holster and fires, a hard muzzle flash and a bloom of white powder smoke, his black duster coat snapping, hard golden light, one man only",
+      "video_prompt": "<<<16868942-7daa-495f-b61b-2cecfa695bf6>>>'s hand blurs, the Colt revolver clears the holster and fires once with a hard muzzle flash and a bloom of white powder smoke, his coat snaps, he holds the recoil, fast decisive motion",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "16868942-7daa-495f-b61b-2cecfa695bf6"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s09_t01.mp4"
+      ],
+      "approved_take": "s09_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s09_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "the draw - muzzle flash + powder smoke, likeness holds"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": 10,
+      "duration_s": 4,
+      "shot_type": "the fall",
+      "camera": "75mm long locked",
+      "action": "The killer's silhouette folds and falls.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 75mm long lens, the black-hatted killer as a pure silhouette folding backward into a wall of backlit golden dust far down the street, his hat tumbling away, drifting white powder smoke, no detail, no gore",
+      "video_prompt": "the killer's silhouette folds backward and drops out of the bottom of the frame, his hat tumbling away into the dust, the golden dust wall billows up",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s10_t01.mp4",
+        "s10_t02.mp4"
+      ],
+      "approved_take": "s10_t02.mp4",
+      "review_notes": [
+        {
+          "take": "s10_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer silhouette folds and drops, hat tumbles - non-graphic"
+        },
+        {
+          "take": "s10_t02.mp4",
+          "kind": "video (punchier retake)",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "killer hurled backward, hat+pistol flying, slams into dust - full violent impact arc; frame re-graded to sepia-gold to match"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": 11,
+      "duration_s": 4,
+      "shot_type": "the holster",
+      "camera": "35mm low slow push",
+      "action": "He holsters, tips his hat, turns.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, 35mm low hero angle of <<<16868942-7daa-495f-b61b-2cecfa695bf6>>>, long black leather duster coat, dark waistcoat over a collarless shirt, black flat-brim Stetson hat, tin marshal's star, gunbelt with twin holstered Colt revolvers, silver-grey hair, grey handlebar mustache, weathered lined face, no glasses, white powder smoke curling from the Colt revolver in his hand, the empty dusty street behind, warm gold light catching the smoke, one man only",
+      "video_prompt": "<<<16868942-7daa-495f-b61b-2cecfa695bf6>>> twirls the Colt revolver once and slides it into the holster, then pulls his Stetson hat brim down with two fingers and turns away, smoke drifting",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [
+        "16868942-7daa-495f-b61b-2cecfa695bf6"
+      ],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "cut"
+      },
+      "status": "approved",
+      "takes": [
+        "s11_t01.mp4"
+      ],
+      "approved_take": "s11_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s11_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "holster twirl, hat-brim tip, turns away"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "scene": 12,
+      "duration_s": 5,
+      "shot_type": "title plate",
+      "camera": "24mm wide slow push",
+      "action": "Empty street, a black hat in the dirt, title.",
+      "dialogue": null,
+      "start_frame_prompt": "gritty 1880s western film still, Tombstone movie cinematography, sun-blasted dusty frontier town, warm sepia-gold grade, harsh high-contrast sunlight, deep black shadows, fine dust haze in the air, anamorphic flare, 35mm film grain, wide empty dusty main street with settling golden dust, a single black hat lying in the dirt far down the street, warped clapboard storefronts, low golden sun and long shadows, zero people",
+      "video_prompt": "the dust slowly settles, a tumbleweed drifts past the lone black hat lying in the dirt, heat haze shimmers, all else still",
+      "video_model": "kling3_0",
+      "image_model": "nano_banana_2",
+      "uses_elements": [],
+      "chain_from_last_frame_of": null,
+      "transition_in": {
+        "type": "fadeblack",
+        "duration_s": 0.8
+      },
+      "status": "approved",
+      "takes": [
+        "s12_t01.mp4"
+      ],
+      "approved_take": "s12_t01.mp4",
+      "review_notes": [
+        {
+          "take": "s12_t01.mp4",
+          "kind": "video",
+          "grades": {
+            "fidelity": 5,
+            "continuity": 5,
+            "technical": 4,
+            "cinematography": 5,
+            "cut_compatibility": 4
+          },
+          "verdict": "approve",
+          "why": "dust settles, tumbleweed past lone hat - the button"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "music": [
+      {
+        "id": "m01_tension",
+        "prompt": "spaghetti western tension build, lone whistled melody, twanging tremolo electric guitar, a distant ocarina, ominous low strings, rising dread toward a dead-silent peak, Morricone style",
+        "duration_s": 34,
+        "start_at_s": 0,
+        "gain_db": -7
+      },
+      {
+        "id": "m02_resolve",
+        "prompt": "Ennio Morricone style western sting, a blaring trumpet and choir swell on the gunshot, then the theme resolving warm and elegiac to a final lone electric guitar chord",
+        "duration_s": 15,
+        "start_at_s": 34,
+        "gain_db": -6
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01_cullen",
+        "character": "CULLEN",
+        "text": "Should've stayed on your horse.",
+        "voice": "Graham (en)",
+        "start_at_s": 43.5,
+        "gain_db": 0
+      }
+    ],
+    "sfx": [
+      {
+        "id": "x01_town",
+        "prompt": "slow lonely church bell toll, hot dry desert wind, a creaking wooden sign, a faint distant whistle, frontier town ambience",
+        "duration_s": 16,
+        "start_at_s": 0,
+        "gain_db": -12
+      },
+      {
+        "id": "x02_clear",
+        "prompt": "a wooden shutter slamming shut, hurried horse hooves on dirt, a dog yelp, tense dry wind, spurs jingling",
+        "duration_s": 10,
+        "start_at_s": 16,
+        "gain_db": -10
+      },
+      {
+        "id": "x03_shot",
+        "prompt": "a single thunderous Colt revolver gunshot, sharp crack with a heavy echo rolling away across the open town, smoke tail",
+        "duration_s": 5,
+        "start_at_s": 34,
+        "gain_db": -3
+      }
+    ]
+  }
+}

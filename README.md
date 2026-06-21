@@ -45,8 +45,8 @@ a song about…", "recut the trailer with a faster act 2", "shot 7 looks wrong, 
 
 ```
 CLAUDE.md                 The studio's operating system (pipeline, hard rules)
-.claude/skills/           Six departments: screenwriting, shot-design, production,
-                          review-loop, sound-department, post-production
+.claude/skills/           Seven departments: creative-writing, screenwriting, shot-design,
+                          production, review-loop, sound-department, post-production
 scripts/assemble.py       Shotlist-driven ffmpeg timeline (xfade transitions, draft/final)
 scripts/review.py         Contact sheets, frame strips, last-frame extraction (continuity)
 scripts/audio_mix.py      Stem mixer with automatic dialogue ducking

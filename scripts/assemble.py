@@ -91,10 +91,11 @@ def main():
             ttype = t["type"] if t["type"] in XFADE_TYPES else "fade"
             tdur = min(float(t.get("duration_s", 0.5)), durs[i - 1] / 2, durs[i] / 2)
             if t["type"] == "cut":
-                ttype, tdur = "fade", 0.01  # near-invisible
+                # exactly one frame: sub-frame xfade durations silently truncate the chain
+                ttype, tdur = "fade", 1.0 / fps
             label = f"[v{i}]"
-            fg.append(f"{cur}[{i}:v]xfade=transition={ttype}:duration={tdur:.2f}:"
-                      f"offset={offset - tdur:.3f}{label}")
+            fg.append(f"{cur}[{i}:v]xfade=transition={ttype}:duration={tdur:.4f}:"
+                      f"offset={offset - tdur:.4f}{label}")
             cur = label
             offset += durs[i] - tdur
         run(["ffmpeg", "-y", *inputs, "-filter_complex", ";".join(fg),

@@ -1,0 +1,93 @@
+{
+  "slug": "going-going-gone",
+  "title": "Going Going Gone",
+  "created": "2026-06-12",
+  "user_prompt": "Two men from photo as real-time auctioneers in upscale Victorian Sherlock Holmes era auction hall. Grey-haired man auctions ultra-fast; classy, funny, ironic, wild twists. 50 seconds.",
+  "deliverable": "short_film",
+  "stage": "delivered",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 145,
+    "spent_credits": 127.57,
+    "ledger": [
+      {
+        "what": "12 start frames",
+        "credits": 18
+      },
+      {
+        "what": "sound dept: 2 music + 5 TTS + 5 sfx",
+        "credits": 24
+      },
+      {
+        "what": "12 video shots kling3_0, 49s",
+        "credits": 73.5
+      },
+      {
+        "what": "reconciliation vs opening balance (actual billed)",
+        "credits": 120.07
+      },
+      {
+        "what": "fix pass: d03 TTS regen + s11 gavel retake",
+        "credits": 7.5
+      }
+    ],
+    "opening_balance": 1758.01,
+    "closing_balance": 1637.94
+  },
+  "continuity_assets": {
+    "elements": {
+      "pembroke-auctioneer": "be6a7391-092b-4b8d-acd1-c0afc558f8d3",
+      "hale-clerk": "4714e398-6a9a-4d96-a119-00a87138dc6f"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {
+    "s01_frame": "a2863b06-db10-451e-9075-7fbdc734d022",
+    "s02_frame": "3d78ec9d-7bd5-402f-bbcb-f2b5770202b7",
+    "s03_frame": "6a5a3734-c24a-4bb5-ae24-342f4278332b",
+    "s04_frame": "b778764b-c208-465c-b76c-84e76171d279",
+    "s05_frame": "306f0bcd-5fe6-441a-8d96-c3ab83e629c3",
+    "s06_frame": "52774270-234a-403e-a7c7-31b319919bf9",
+    "s07_frame": "debb21a8-3c2a-4245-a5f4-984bdf22d6f0",
+    "s08_frame": "d4e043c6-5c9b-4462-aa4b-f9c4bc466d6e",
+    "s09_frame": "7d03b6db-66ff-4629-8541-14c195bfc201",
+    "s10_frame": "202833b1-f5a6-42b2-992e-24a0b2e221ce",
+    "s11_frame": "87c580f4-20a8-43dc-b4d6-b6bd014c416f",
+    "s12_frame": "65b80c77-d876-4d97-935a-f2e3d3a20489",
+    "m01_waltz": "00cd3c42-cb72-4a0d-9621-b73f0b2ddccf",
+    "m02_mystery": "cca194f6-a02e-4b57-86ed-87e782b68998",
+    "d01_pembroke": "8377d779-e78f-4d97-a0f8-2fb697a23987",
+    "d02_hale": "20ce0b79-7bc7-4b72-b3e8-693386623ffc",
+    "d03_pembroke": "3a9598b6-4fea-4135-a22d-102d34c3b2ee",
+    "d04_hale": "593768d3-56d7-4264-9089-02c89a2a04f3",
+    "d05_pembroke": "7cb0df12-82af-4a40-831f-b5026fa550ab",
+    "x01_hall_amb": "04638e53-99e5-45d7-97f9-906b52a79b42",
+    "x02_velvet": "414d8622-733f-48d8-b3ea-638aa20b6bc9",
+    "x03_gasp": "a14e1e3a-4b70-473f-b1a4-2135ab6b3255",
+    "x04_gas_flutter": "1849eed1-0929-44ab-a12a-e0744be60814",
+    "x05_gavel": "f3709ba6-b379-48d5-8b10-f072971c1a88",
+    "s01_video": "3cadd69b-95c3-4884-b899-6f834b0d874a",
+    "s02_video": "48b36d7d-7257-49d1-922f-3dfec74661ea",
+    "s03_video": "f4f9669c-2f48-4915-8036-ff3ac1f07769",
+    "s04_video": "e699d39f-0812-49fb-aa2e-91f9be368320",
+    "s05_video": "1976b3bd-2537-4535-9aa4-73dc657d70a1",
+    "s06_video": "620b402a-5a6b-4956-b198-64fce98df66a",
+    "s07_video": "7886ff86-dd45-4257-a3ac-59a9a0dba869",
+    "s08_video": "55ec5c95-9c3b-43dd-b9c3-5b63766d1bde",
+    "s09_video": "37ba3c21-334b-4d1b-8f78-3f7d847f3654",
+    "s10_video": "e3b0f369-4579-4668-b355-d6c1ab923bd6",
+    "s11_video": "ed49a8c4-00c0-4553-a7fd-596e66218a36",
+    "s12_video": "f90f4554-4476-409d-a3de-0256abe8dc8b"
+  },
+  "notes": [
+    "two elements from one user photo (face crops); audience as hands/silhouettes per no-crowds law",
+    "voices: Rupert (en)=Pembroke fast patter, Callum (en)=Hale; patter written as run-ons to push TTS speed",
+    "est 145cr (12 img + 49s video + 7 audio + margin), under gate; opening balance 1758.01",
+    "d01/d03 tempo-compressed 1.22x/1.20x (originals kept as .bak): the fast-talk IS the brief; downstream cues shifted (d02 26.0, d04 41.3, x05 42.6, d05 43.3)",
+    "delivered: 47.8s final, both streams, QC cutsheet logged; 12/12 shots take 1, zero retakes",
+    "actual 120.07cr vs 145 estimate",
+    "FIX PASS (user: 'came out weird'): atempo voices reverted to natural; d03 regenerated SHORTER instead of faster; d05 moved off the runtime tail (was clipping its last word); x03 gasp now reacts AFTER d02's line; s11 gavel retake t02 with explicit hard strike",
+    "v2 delivered after fix pass: natural-speed voices, shorter d03, gasp reacts to the line, hard gavel strike t02, no tail clipping"
+  ]
+}

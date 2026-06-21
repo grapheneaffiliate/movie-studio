@@ -1,0 +1,81 @@
+{
+  "slug": "comet-twister",
+  "title": "Comet Twister",
+  "created": "2026-06-13",
+  "user_prompt": "The Silver Comet (same hero, user's likeness) flies into a tornado to save a small farm town. 50 seconds, full superhero spectacle.",
+  "deliverable": "short_film",
+  "stage": "delivered",
+  "stages_done": [],
+  "target_runtime_s": 50,
+  "budget": {
+    "estimate_credits": 135,
+    "spent_credits": 108.82,
+    "ledger": [
+      {
+        "what": "12 start frames",
+        "credits": 18
+      },
+      {
+        "what": "sound: 2 music + 1 TTS + 4 sfx",
+        "credits": 20
+      },
+      {
+        "what": "12 video shots kling3_0, 49s",
+        "credits": 73.5
+      },
+      {
+        "what": "reconciliation vs opening balance (actual billed)",
+        "credits": 108.82
+      }
+    ],
+    "opening_balance": 1516.62,
+    "closing_balance": 1407.8
+  },
+  "continuity_assets": {
+    "elements": {
+      "keeper-hero": "a895b77d-5fdb-4d8a-8964-e0cf6e88d773"
+    },
+    "souls": {}
+  },
+  "higgsfield_jobs": {
+    "s01_frame": "950430cb-1510-4f16-acef-8c2498e3fab2",
+    "s02_frame": "a6cb8601-d58c-4c10-b329-014486920e6f",
+    "s03_frame": "b973a46b-dfca-4e2e-ac6b-c3b8b9d1e59b",
+    "s04_frame": "98e2cdeb-71a5-4e06-8f3a-be25c7911b42",
+    "s05_frame": "7c55c35d-55c4-4db5-8bea-d157a70d8409",
+    "s06_frame": "3ecf01f0-561e-4983-9126-ffa525660338",
+    "s07_frame": "58405915-1b4b-466a-8cff-86c26f6a11a3",
+    "s08_frame": "4960fcfd-d5d7-4bcf-9edc-e747b04054ad",
+    "s09_frame": "58235eeb-8711-4916-87de-2833f6cbb011",
+    "s10_frame": "889a6481-0409-40d9-a024-e629d0a48a78",
+    "s11_frame": "4725205e-0b41-44a2-b84c-50c94fedfa18",
+    "s12_frame": "162f7c47-b809-4a85-beca-bd437a3b590c",
+    "m01_dread": "e8504093-12d9-465c-96b1-b5fe1d89ae82",
+    "m02_soar": "82f6a9b3-768d-4e6d-b24e-8cb7759ad09a",
+    "d01_comet": "4aa843bd-166d-4d3f-90dd-7427d8eb3ac6",
+    "x01_storm": "a4cbc49a-dacf-4c16-b819-45bda6a44f13",
+    "x02_dive": "48ec4784-76cc-40cf-8995-32a90a709bbf",
+    "x03_vortex": "faf207c1-6f83-43ad-90a1-f423d42bdb8b",
+    "x04_calm": "a9ba8926-6367-4698-bad9-56e91670620e",
+    "s01_video": "ee78fcc1-d592-4d9f-94b2-7be8bd01f1f0",
+    "s02_video": "8dc3a761-03b0-4902-8aa2-b5d198d2a7e6",
+    "s03_video": "40161e6d-a9c5-4707-9f91-81fefbab9540",
+    "s04_video": "87f4072c-3a53-4bab-959b-ae9657c55323",
+    "s05_video": "c9cdd788-7a09-43b1-8524-6fbb6995f7cb",
+    "s06_video": "88c476f0-232c-46ed-b8a1-d67e129d8752",
+    "s07_video": "9a80b8aa-3f56-4991-bd8d-d80072741e07",
+    "s08_video": "12608e49-3f8d-4e27-9bff-8aafd2066346",
+    "s09_video": "89517872-acba-4da3-98f0-0e6437c33600",
+    "s10_video": "6618935f-bb89-4184-b179-df4ba519986e",
+    "s11_video": "b5700a95-c5df-4971-b8b4-1d3606207d69",
+    "s12_video": "c45efcea-291f-4d77-872a-32dc4023201c"
+  },
+  "notes": [
+    "SEQUEL: reuses keeper-hero element + established slate-blue suit/silver comet emblem from silver-comet",
+    "classic Superman counter-spin save: hero flies against the funnel rotation to unwind it",
+    "farm town stakes w/o crowds: one farmhouse, distant figures only; voice Graham (en)",
+    "all 12 frames approved t01 on review sheet; vortex interior + counter-spin read strong; s10 preset interception declined+retried",
+    "delivered: 47.8s final, both streams, QC cutsheet logged; 12/12 shots take 1, zero retakes",
+    "actual 108.82cr vs 135 estimate"
+  ]
+}
