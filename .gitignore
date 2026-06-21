@@ -10,6 +10,7 @@ projects/*/audio/
 projects/*/refs/
 projects/*/dailies/
 projects/*/final/
+projects/*/deliverables/
 
 # …except the smoketest worked example: its tiny synthetic sources are tracked
 # so the pipeline is runnable straight from a clone. Rendered outputs stay local.

@@ -45,13 +45,20 @@ a song about…", "recut the trailer with a faster act 2", "shot 7 looks wrong, 
 
 ```
 CLAUDE.md                 The studio's operating system (pipeline, hard rules)
-.claude/skills/           Seven departments: creative-writing, screenwriting, shot-design,
-                          production, review-loop, sound-department, post-production
-scripts/assemble.py       Shotlist-driven ffmpeg timeline (xfade transitions, draft/final)
-scripts/review.py         Contact sheets, frame strips, last-frame extraction (continuity)
-scripts/audio_mix.py      Stem mixer with automatic dialogue ducking
-scripts/download.py       Persist Higgsfield results to disk, verified
-templates/                shotlist.json + project.json schemas
+.claude/skills/           Twelve departments —
+                          core:       creative-writing, screenwriting, shot-design,
+                                      production, review-loop, sound-department, post-production
+                          finishing:  previsualization, motion-graphics, color-grading,
+                                      mastering-delivery, marketing-distribution
+scripts/  (all stdlib + ffmpeg — free, re-runnable; credits are for the render farm only)
+  new_project.py · preflight.py · status.py   scaffold, env check, crash recovery
+  assemble.py · audio_mix.py · download.py     timeline, stem mix+ducking, persist results
+  review.py                                    contact sheets, strips, last-frame continuity
+  estimate.py · beatgrid.py · animatic.py      pre-viz: cost, beat-grid, see-before-you-shoot
+  titles.py · subtitle.py · thumbnail.py       graphics: cards/lowers/credits, captions, key art
+  grade.py                                     13 cinematic color looks (+ LUTs)
+  master.py · qc.py · package.py · edl_export.py  loudness, QC gate, multi-platform, NLE handoff
+templates/                shotlist.json + project.json schemas, models.md (render-farm ref)
 projects/                 Every film lives here, fully resumable from project.json
 ```
 

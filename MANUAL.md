@@ -13,7 +13,7 @@ Three layers, deliberately separated:
 
 | Layer | Component | Role |
 |---|---|---|
-| **Brain** | Claude Code + `CLAUDE.md` + 7 skills | Writer, director, cinematographer, editor, QC reviewer. All creative judgment lives here. |
+| **Brain** | Claude Code + `CLAUDE.md` + 12 skills | Writer, director, cinematographer, editor, colorist, sound mixer, finisher, marketer, QC reviewer. All creative judgment lives here. |
 | **Render farm** | Higgsfield MCP (your Ultra account) | Every pixel and every audio sample: images, video clips, music, TTS dialogue, SFX, upscaling, reframing. |
 | **Edit bay** | ffmpeg via `scripts/` | Deterministic local assembly: normalization, transitions, audio mixing/ducking, muxing, frame extraction. Free and repeatable — never spend credits on what ffmpeg can do. |
 
@@ -25,10 +25,15 @@ Claude Code's Read tool — this is the loop that turns a generation slot machin
 into a studio.
 
 ```
-PROMPT ─► DEVELOPMENT ─► PRE-PRO ─► PRODUCTION ─► DAILIES ─► SOUND ─► POST ─► QC ─► FILE
-          screenplay     shotlist    generate      see+grade   score    cut    final
-          characters     elements    img→video     retake      voice    mix    review
-                         budget      download      approve     sfx      mux    deliver
+PROMPT ─► DEV ─► PRE-PRO ─► PRE-VIZ ─► PRODUCTION ─► DAILIES ─► SOUND ─► POST ─►
+          script  shotlist  estimate   generate      see+grade   score    cut
+          chars   elements  animatic   img→video     retake      voice    mix
+                  budget    beatgrid   download       approve     sfx      mux
+
+  ─► GRAPHICS ─► COLOR ─► DELIVERY ─► QC ─► FILE   (+ MARKETING, if reach is asked)
+     titles      grade    master      qc.py  final     thumbnails
+     subtitles            package     gate   deliver   virality/hook
+     credits             edl/fcpxml                    teasers · dub/subs
 ```
 
 ---
@@ -185,6 +190,104 @@ ambience −12, hard SFX −3.
 
 ---
 
+## 4b. Finishing & Distribution Utilities (scripts/)
+
+The crafts that turn a stack of approved clips into a delivered film. All
+ffmpeg/stdlib, free and re-runnable — the agent never spends render-farm credits
+on anything below.
+
+### `estimate.py` — local credit budget (no API)
+```bash
+python3 scripts/estimate.py projects/<slug> [--vid 60 --retake 1.4 --gate 500]
+```
+Instant ballpark from the shotlist shape; trips the Budget Gate. Early warning
+before shot-design confirms real costs with `get_cost`.
+
+### `beatgrid.py` — beat detection → cut points (music videos)
+```bash
+python3 scripts/beatgrid.py <track> [--every 2 --min-shot 1.5 --json cuts.json]
+```
+Decodes audio (pure stdlib `wave`), builds an onset envelope, estimates tempo,
+proposes a shot breakdown where every cut lands on a beat. Inverted MV flow:
+track → beat grid → shotlist.
+
+### `animatic.py` — pre-viz slideshow
+```bash
+python3 scripts/animatic.py build projects/<slug> [--kenburns] [--audio]
+```
+Strings each shot's start frame (`refs/s01.png`…) at real shotlist durations into
+a timed animatic; labeled slate for any missing frame. See the pacing for the
+price of images, before animating. Fix `duration_s`/order now — free.
+
+### `titles.py` — title cards, lower-thirds, credits, watermarks
+```bash
+python3 scripts/titles.py card "TITLE" --sub "tagline" --dur 3 --out card.mp4
+python3 scripts/titles.py lower cut.mp4 --name "MARA" --role "Pilot" --at 4 --out lt.mp4
+python3 scripts/titles.py credits --file credits.txt --dur 24 --out credits.mp4
+python3 scripts/titles.py watermark cut.mp4 --logo brand.png --pos br --out branded.mp4
+```
+Cards are standalone clips (add to the shotlist as a shot); lower-thirds/
+watermarks overlay an existing cut. Auto-fades; cinematic serif by default.
+
+### `subtitle.py` — captions from the dialogue block
+```bash
+python3 scripts/subtitle.py srt  projects/<slug>            # frame-accurate SRT
+python3 scripts/subtitle.py ass  projects/<slug> --style cinema|caption|karaoke
+python3 scripts/subtitle.py burn cut.mp4 --sub <slug>.srt --style caption --out cut_sub.mp4
+python3 scripts/subtitle.py lyrics timed.txt --out song.srt
+```
+Timing is deterministic from `start_at_s` + stem durations. Always ship an SRT;
+burn captions for muted social autoplay.
+
+### `grade.py` — cinematic color grade
+```bash
+python3 scripts/grade.py list
+python3 scripts/grade.py apply cut.mp4 --look teal-orange --vignette --grain 6 --out graded.mp4
+python3 scripts/grade.py lut cut.mp4 --cube look.cube --out graded.mp4
+```
+13 named looks (teal-orange, noir, bleach-bypass, day-for-night, vintage,
+cyberpunk, …) on video or stills. One committed look hides AI palette drift.
+
+### `master.py` — loudness mastering (EBU R128)
+```bash
+python3 scripts/master.py measure cut_mix.mp4
+python3 scripts/master.py apply cut_mix.mp4 --target youtube --out cut_master.mp4
+```
+Two-pass loudnorm to platform spec (youtube −14, broadcast −23, cinema −27 LUFS…)
+with true-peak limiting. Conform so platforms don't turn you down.
+
+### `qc.py` — automated technical QC (the delivery gate)
+```bash
+python3 scripts/qc.py projects/<slug>          # exit 0 = PASS, non-zero = FAIL
+```
+Container/streams, resolution/fps, **runtime ±15%**, interior black, **frozen
+video**, true-peak clipping, loudness, dead silence. Never deliver on a FAIL.
+
+### `package.py` — multi-platform delivery + smart reframe
+```bash
+python3 scripts/package.py all cut_master.mp4 --outdir deliverables
+python3 scripts/package.py export cut_master.mp4 --preset reels --focus center --out reels.mp4
+```
+Conforms resolution/codec/loudness per destination; local pan-&-scan reframe for
+16:9→9:16/1:1 (no `reframe` credits for routine social).
+
+### `thumbnail.py` — key art / poster / thumbnail
+```bash
+python3 scripts/thumbnail.py make <frame-or-video> --title "TITLE" --sub "tagline" \
+    --preset youtube|poster|vertical|square|wide --scrim --out thumb.png
+```
+Frames a still (or grabs from the cut), lays a legibility scrim, sets title +
+tagline. The click that decides whether anyone watches.
+
+### `edl_export.py` — pro-NLE handoff
+```bash
+python3 scripts/edl_export.py projects/<slug>      # writes .edl + .fcpxml to final/
+```
+CMX3600 EDL + FCPXML referencing the approved clips in order at the right
+durations, so a human can finish in DaVinci Resolve / Premiere / Final Cut.
+
+---
+
 ## 5. Data Schemas (the contracts everything obeys)
 
 ### `shotlist.json` — the edit decision list
@@ -244,7 +347,10 @@ Edit `CLAUDE.md` directly:
 
 ---
 
-## 7. The Seven Departments (.claude/skills/)
+## 7. The Departments (.claude/skills/)
+
+Seven core departments take a prompt to a delivered film; five finishing &
+distribution departments raise it to a release.
 
 | Skill | Stage | What it owns |
 |---|---|---|
@@ -255,6 +361,11 @@ Edit `CLAUDE.md` directly:
 | `review-loop` | Dailies + QC | Contact-sheet grading on 5 axes, approve/retake/redesign decisions, deep strip inspection, final-cut QC with one fix pass, surgical edit requests. |
 | `sound-department` | Sound | Model routing (sonilo music / inworld TTS / mirelo SFX), per-act cues, voice casting, stem naming discipline, timing math (dialogue must fit its shot), ffprobe verification. |
 | `post-production` | Post | Draft→final render discipline, transition vocabulary, trim-don't-regenerate pacing, reframe/upscale deliverables, closing report. |
+| `previsualization` | Pre-viz | Credit estimate + budget gate, animatic from start frames (see pacing before shooting), beat grid for music-video cutting. |
+| `motion-graphics` | Graphics | Title cards, lower-thirds, end-credit rolls, watermarks/brand bugs, burned/exported subtitles, key art. All text the render farm must not make. |
+| `color-grading` | Color | One committed cinematic grade across the cut (hides AI palette drift), shot-matching, author LUTs. |
+| `mastering-delivery` | Delivery | Loudness master to spec, automated technical QC gate, multi-platform export, EDL/FCPXML handoff to pro NLEs. |
+| `marketing-distribution` | Marketing | Thumbnails/posters, virality prediction + hook tuning, social teaser cutdowns, localization (dubbing/subtitles). |
 
 ---
 
